@@ -1,0 +1,1001 @@
+order_id,customer_id,order_date,product_id,quantity,price,order_status,shipping_address,city,country,payment_method,discount,category,sales_rep,region,ship_date,delivery_days,returned,gender
+1001,C164,2025-12-04,P101,5,27.5,Pending,"418 Main St, City8",City8,Canada,Credit Card,11.81,Electronics,SR01,North,2025-12-15,4,Yes,Other
+1002,C051,2025-12-23,P141,9,44.26,Returned,"211 Main St, City10",City10,Australia,Credit Card,15.18,Clothing,SR14,East,2025-12-19,3,Yes,Female
+1003,C027,2025-12-03,P124,2,38.45,Cancelled,"972 Main St, City2",City5,Australia,Credit Card,14.59,Toys,SR04,West,2025-12-07,9,No,Other
+1004,C159,2025-12-29,P123,10,22.45,Shipped,"150 Main St, City2",City3,India,Cash,19.7,Clothing,SR04,West,2025-12-19,8,No,Male
+1005,C095,2025-12-12,P113,5,71.36,Shipped,"168 Main St, City8",City14,India,PayPal,3.27,Home,SR09,South,2025-12-22,1,Yes,Male
+1006,C081,2025-12-13,P117,2,24.24,Cancelled,"270 Main St, City3",City3,Germany,Gift Card,17.69,Sports,SR15,South,2025-12-18,3,Yes,Other
+1007,C144,2025-12-18,P116,10,45.12,Returned,"314 Main St, City11",City13,India,Gift Card,1.82,Electronics,SR04,South,2025-12-12,7,Yes,Female
+1008,C098,2025-12-20,P129,9,28.13,Shipped,"216 Main St, City1",City18,USA,Cash,15.37,Books,SR04,East,2025-12-29,3,No,Male
+1009,C185,2025-12-29,P146,5,97.29,Pending,"992 Main St, City9",City17,Australia,Cash,16.83,Toys,SR20,South,2025-12-11,6,Yes,Other
+1010,C200,2025-12-30,P133,1,61.49,Returned,"731 Main St, City1",City10,UK,Cash,4.79,Clothing,SR19,North,2025-12-07,8,Yes,Other
+1011,C197,2025-12-05,P108,8,94.89,Pending,"532 Main St, City8",City19,Australia,Gift Card,19.29,Toys,SR07,East,2025-12-27,6,No,Other
+1012,C116,2025-12-04,P115,4,10.14,Shipped,"211 Main St, City10",City5,India,PayPal,0.14,Sports,SR02,South,2025-12-06,1,No,Male
+1013,C132,2025-12-08,P117,8,24.56,Pending,"822 Main St, City15",City13,France,Gift Card,4.86,Home,SR14,South,2025-12-08,2,No,Female
+1014,C109,2025-12-14,P129,1,68.63,Shipped,"311 Main St, City18",City1,Canada,Cash,16.01,Electronics,SR08,South,2025-12-14,9,No,Male
+1015,C109,2025-12-06,P117,8,27.97,Shipped,"115 Main St, City18",City19,USA,Credit Card,13.04,Toys,SR01,North,2025-12-17,3,No,Female
+1016,C124,2025-12-07,P125,1,19.8,Shipped,"225 Main St, City1",City5,Australia,Gift Card,5.7,Sports,SR18,West,2025-12-11,4,No,Male
+1017,C015,2025-12-19,P147,9,9.84,Cancelled,"765 Main St, City4",City13,France,Gift Card,10.06,Toys,SR06,North,2026-01-03,2,Yes,Male
+1018,C153,2025-12-03,P143,4,42.75,Pending,"580 Main St, City18",City20,USA,Credit Card,8.38,Toys,SR19,East,2025-12-18,4,No,Male
+1019,C068,2025-12-13,P108,5,47.88,Shipped,"108 Main St, City4",City5,France,Credit Card,1.47,Clothing,SR17,East,2025-12-10,6,Yes,Male
+1020,C095,2025-12-10,P110,8,84.03,Cancelled,"378 Main St, City18",City3,France,Credit Card,13.36,Toys,SR10,North,2025-12-10,5,Yes,Male
+1021,C191,2025-12-18,P109,5,31.04,Pending,"452 Main St, City6",City7,India,Cash,10.11,Books,SR02,North,2025-12-29,5,Yes,Male
+1022,C086,2025-12-25,P108,5,19.5,Returned,"724 Main St, City13",City10,Germany,Credit Card,2.24,Sports,SR05,North,2025-12-25,10,Yes,Female
+1023,C033,2025-12-02,P119,6,90.29,Shipped,"251 Main St, City3",City12,Canada,PayPal,13.34,Books,SR18,West,2025-12-11,4,Yes,Male
+1024,C106,2025-12-01,P111,6,79.1,Returned,"852 Main St, City20",City13,Australia,PayPal,5.34,Sports,SR04,West,2025-12-04,8,Yes,Male
+1025,C118,2025-12-12,P119,4,25.39,Pending,"456 Main St, City1",City14,UK,Credit Card,19.34,Books,SR12,West,2026-01-05,6,Yes,Male
+1026,C067,2025-12-06,P137,5,7.66,Returned,"254 Main St, City20",City3,Australia,Cash,8.73,Toys,SR04,West,2025-12-14,5,Yes,Other
+1027,C112,2025-12-01,P133,9,69.93,Pending,"231 Main St, City15",City18,USA,Cash,12.46,Sports,SR04,East,2026-01-03,5,No,Female
+1028,C104,2025-12-23,P118,9,16.21,Returned,"224 Main St, City11",City6,Canada,PayPal,12.31,Books,SR13,North,2025-12-21,5,Yes,Female
+1029,C149,2025-12-20,P141,6,48.63,Returned,"816 Main St, City9",City7,France,Gift Card,15.87,Sports,SR06,North,2025-12-20,9,No,Male
+1030,C193,2025-12-08,P143,5,25.56,Pending,"546 Main St, City6",City3,USA,PayPal,19.68,Toys,SR03,West,2025-12-28,10,Yes,Other
+1031,C179,2025-12-13,P131,7,27.41,Shipped,"709 Main St, City18",City2,USA,Gift Card,4.38,Sports,SR17,West,2025-12-05,9,Yes,Male
+1032,C117,2025-12-05,P129,9,98.83,Cancelled,"472 Main St, City10",City13,France,Gift Card,16.61,Toys,SR15,South,2026-01-01,8,No,Male
+1033,C164,2025-12-09,P149,9,50.51,Pending,"179 Main St, City12",City7,USA,Cash,4.69,Books,SR11,North,2025-12-10,3,Yes,Female
+1034,C178,2025-12-05,P145,4,10.16,Returned,"685 Main St, City10",City5,Germany,Gift Card,1.25,Home,SR13,North,2025-12-26,8,Yes,Female
+1035,C077,2025-12-25,P124,7,55.66,Pending,"674 Main St, City16",City13,UK,Gift Card,9.71,Home,SR11,West,2025-12-12,8,Yes,Other
+1036,C137,2025-12-01,P125,10,58.17,Shipped,"582 Main St, City15",City10,Germany,PayPal,17.34,Clothing,SR02,East,2025-12-26,6,Yes,Female
+1037,C084,2025-12-11,P148,7,30.7,Returned,"399 Main St, City4",City4,Germany,Credit Card,14.98,Electronics,SR12,South,2025-12-06,1,Yes,Male
+1038,C052,2025-12-27,P101,10,18.62,Pending,"481 Main St, City16",City12,USA,PayPal,9.3,Books,SR12,South,2025-12-09,3,No,Male
+1039,C149,2025-12-01,P119,10,69.02,Returned,"857 Main St, City6",City18,India,Credit Card,11.84,Sports,SR08,North,2025-12-21,10,Yes,Other
+1040,C011,2025-12-12,P134,7,67.5,Shipped,"992 Main St, City9",City1,UK,Credit Card,16.99,Home,SR04,West,2025-12-25,8,Yes,Female
+1041,C046,2025-12-24,P133,5,63.12,Returned,"330 Main St, City5",City5,Australia,Cash,6.45,Clothing,SR03,East,2025-12-30,4,No,Other
+1042,C157,2025-12-22,P124,6,6.75,Cancelled,"947 Main St, City6",City18,India,Cash,15.96,Books,SR09,East,2025-12-02,9,Yes,Male
+1043,C062,2025-12-24,P126,8,57.29,Pending,"658 Main St, City4",City3,Canada,Gift Card,8.96,Electronics,SR03,East,2025-12-16,7,Yes,Female
+1044,C170,2025-12-19,P123,8,57.12,Cancelled,"875 Main St, City2",City19,France,Cash,7.04,Home,SR09,East,2025-12-18,4,Yes,Other
+1045,C050,2025-12-11,P107,9,95.27,Pending,"950 Main St, City7",City1,Canada,Gift Card,5.53,Toys,SR17,East,2025-12-08,4,No,Male
+1046,C093,2025-12-06,P119,1,71.96,Pending,"179 Main St, City12",City4,USA,Cash,13.95,Clothing,SR16,North,2025-12-02,10,No,Female
+1047,C123,2025-12-15,P121,3,96.68,Cancelled,"153 Main St, City18",City4,Australia,Credit Card,8.01,Electronics,SR19,North,2025-12-11,3,No,Male
+1048,C064,2025-12-04,P135,7,62.2,Pending,"805 Main St, City4",City9,Germany,Gift Card,18.17,Books,SR19,West,2025-12-21,10,Yes,Other
+1049,C190,2025-12-04,P148,4,64.04,Cancelled,"696 Main St, City5",City4,India,PayPal,3.48,Electronics,SR06,North,2025-12-28,8,No,Female
+1050,C009,2025-12-08,P118,5,71.48,Returned,"132 Main St, City19",City7,India,Cash,15.76,Sports,SR19,South,2025-12-29,2,Yes,Other
+1051,C039,2025-12-30,P117,3,10.85,Pending,"886 Main St, City3",City20,Canada,Cash,8.78,Home,SR10,West,2025-12-19,9,No,Female
+1052,C021,2025-12-20,P102,7,74.51,Cancelled,"712 Main St, City18",City6,India,Credit Card,19.99,Sports,SR09,North,2025-12-13,8,No,Female
+1053,C047,2025-12-19,P127,8,97.02,Returned,"462 Main St, City18",City15,UK,Cash,13.4,Clothing,SR11,West,2026-01-02,5,No,Other
+1054,C010,2025-12-15,P105,6,28.22,Shipped,"477 Main St, City3",City1,Australia,Credit Card,13.15,Toys,SR15,West,2025-12-05,4,No,Other
+1055,C194,2025-12-16,P140,8,76.95,Pending,"553 Main St, City6",City19,India,Cash,8.76,Sports,SR16,North,2025-12-03,10,Yes,Other
+1056,C041,2025-12-10,P135,1,57.01,Shipped,"510 Main St, City3",City4,Germany,Credit Card,12.95,Clothing,SR16,East,2026-01-03,5,No,Female
+1057,C121,2025-12-08,P129,9,17.88,Pending,"837 Main St, City1",City9,Canada,PayPal,17.28,Books,SR14,East,2026-01-03,5,Yes,Female
+1058,C186,2025-12-10,P137,10,99.88,Returned,"817 Main St, City7",City20,France,Gift Card,6.9,Toys,SR18,West,2025-12-31,6,Yes,Other
+1059,C062,2025-12-19,P124,4,86.17,Returned,"150 Main St, City2",City19,Canada,Gift Card,14.1,Home,SR13,South,2026-01-02,1,Yes,Other
+1060,C152,2025-12-11,P106,8,13.56,Returned,"234 Main St, City17",City18,India,Gift Card,17.42,Clothing,SR03,West,2025-12-18,6,No,Other
+1061,C021,2025-12-28,P121,9,40.47,Cancelled,"519 Main St, City16",City18,Australia,Gift Card,17.45,Electronics,SR20,North,2025-12-17,5,Yes,Other
+1062,C024,2025-12-14,P106,2,46.58,Cancelled,"544 Main St, City17",City4,UK,Credit Card,5.87,Books,SR14,South,2025-12-17,9,No,Other
+1063,C175,2025-12-26,P111,3,20.8,Returned,"907 Main St, City10",City9,India,Gift Card,18.26,Clothing,SR08,West,2025-12-18,8,No,Other
+1064,C003,2025-12-29,P129,5,69.04,Pending,"132 Main St, City19",City13,UK,Cash,12.78,Home,SR09,West,2025-12-21,4,No,Female
+1065,C028,2025-12-08,P124,10,38.45,Cancelled,"761 Main St, City4",City20,USA,Gift Card,5.49,Toys,SR02,West,2025-12-20,4,No,Male
+1066,C163,2025-12-07,P139,5,69.06,Pending,"519 Main St, City16",City8,Canada,Credit Card,6.18,Home,SR02,East,2025-12-10,2,No,Female
+1067,C192,2025-12-14,P111,4,16.68,Cancelled,"192 Main St, City6",City17,UK,PayPal,5.14,Home,SR10,East,2025-12-09,8,Yes,Male
+1068,C194,2025-12-31,P114,7,96.85,Cancelled,"749 Main St, City19",City3,USA,Cash,10.73,Home,SR12,East,2025-12-26,6,Yes,Other
+1069,C060,2025-12-16,P101,10,88.88,Cancelled,"378 Main St, City18",City13,Canada,Credit Card,12.71,Home,SR10,West,2025-12-09,3,Yes,Male
+1070,C078,2025-12-16,P107,2,26.53,Pending,"225 Main St, City1",City19,UK,Gift Card,11.75,Sports,SR05,West,2025-12-08,8,No,Female
+1071,C009,2025-12-23,P123,4,46.55,Pending,"314 Main St, City11",City7,Canada,Cash,10.89,Sports,SR12,North,2025-12-27,5,Yes,Male
+1072,C117,2025-12-03,P142,4,65.59,Shipped,"262 Main St, City20",City11,India,PayPal,15.74,Clothing,SR03,South,2025-12-15,4,No,Male
+1073,C153,2025-12-01,P117,3,98.79,Cancelled,"292 Main St, City17",City10,Canada,Credit Card,2.64,Books,SR08,East,2025-12-03,3,No,Male
+1074,C033,2025-12-24,P126,9,14.9,Shipped,"481 Main St, City16",City20,Australia,Cash,10.26,Electronics,SR15,South,2025-12-04,9,No,Female
+1075,C165,2025-12-31,P101,1,99.85,Returned,"188 Main St, City8",City7,USA,Gift Card,14.25,Home,SR03,North,2025-12-22,10,Yes,Male
+1076,C033,2025-12-09,P139,10,56.63,Cancelled,"531 Main St, City6",City20,France,Cash,9.07,Toys,SR14,North,2025-12-09,9,Yes,Female
+1077,C116,2025-12-29,P114,7,36.53,Returned,"456 Main St, City1",City3,Canada,Credit Card,6.25,Books,SR09,East,2025-12-11,8,Yes,Male
+1078,C022,2025-12-03,P127,2,75.47,Cancelled,"173 Main St, City6",City18,USA,Cash,13.4,Home,SR12,West,2025-12-05,5,No,Female
+1079,C027,2025-12-19,P132,4,18.84,Returned,"510 Main St, City3",City17,UK,Cash,2.3,Books,SR19,South,2025-12-29,9,Yes,Other
+1080,C169,2025-12-27,P144,5,6.77,Cancelled,"761 Main St, City4",City5,UK,Cash,7.02,Clothing,SR05,West,2025-12-06,3,Yes,Male
+1081,C192,2025-12-17,P113,7,44.29,Cancelled,"237 Main St, City4",City12,UK,Cash,15.54,Toys,SR20,North,2025-12-05,3,Yes,Other
+1082,C013,2025-12-22,P105,5,46.53,Returned,"674 Main St, City16",City11,Germany,Gift Card,5.46,Toys,SR04,East,2025-12-29,2,No,Other
+1083,C174,2025-12-19,P131,9,68.03,Shipped,"952 Main St, City17",City3,France,Credit Card,0.15,Books,SR07,South,2025-12-18,5,No,Male
+1084,C002,2025-12-16,P147,7,20.86,Returned,"211 Main St, City4",City10,India,Cash,1.44,Sports,SR02,West,2025-12-03,8,Yes,Female
+1085,C148,2025-12-14,P136,7,72.1,Returned,"605 Main St, City1",City4,Germany,Credit Card,19.32,Clothing,SR20,West,2025-12-25,2,No,Male
+1086,C063,2025-12-14,P137,7,54.29,Returned,"718 Main St, City3",City19,UK,PayPal,6.66,Clothing,SR03,North,2026-01-04,9,Yes,Female
+1087,C090,2025-12-24,P141,3,26.67,Pending,"821 Main St, City3",City11,India,PayPal,15.2,Sports,SR03,South,2026-01-02,8,No,Other
+1088,C145,2025-12-21,P140,10,35.02,Cancelled,"817 Main St, City7",City7,USA,Gift Card,8.84,Books,SR09,North,2025-12-24,9,Yes,Female
+1089,C119,2025-12-15,P102,1,39.39,Cancelled,"771 Main St, City13",City1,Australia,Credit Card,12.3,Toys,SR13,West,2025-12-04,8,Yes,Female
+1090,C155,2025-12-16,P132,3,95.93,Returned,"786 Main St, City6",City7,Canada,Credit Card,10.09,Clothing,SR02,South,2025-12-30,8,Yes,Female
+1091,C096,2025-12-30,P118,7,43.23,Cancelled,"909 Main St, City20",City16,USA,Cash,1.32,Electronics,SR18,West,2025-12-20,5,Yes,Female
+1092,C021,2025-12-19,P142,3,92.0,Cancelled,"369 Main St, City20",City10,Canada,Gift Card,2.58,Sports,SR03,East,2025-12-26,6,Yes,Other
+1093,C180,2025-12-27,P147,9,12.96,Returned,"801 Main St, City6",City5,USA,Cash,6.18,Clothing,SR11,West,2025-12-14,4,Yes,Male
+1094,C020,2025-12-10,P106,9,77.99,Shipped,"696 Main St, City5",City8,Australia,PayPal,11.94,Clothing,SR06,South,2025-12-12,8,Yes,Female
+1095,C094,2025-12-22,P146,4,97.07,Cancelled,"709 Main St, City18",City19,Australia,Gift Card,4.68,Clothing,SR10,West,2025-12-14,6,No,Female
+1096,C197,2025-12-10,P149,7,52.27,Returned,"918 Main St, City1",City11,Australia,PayPal,17.46,Electronics,SR16,East,2025-12-08,9,Yes,Female
+1097,C022,2025-12-25,P110,5,47.12,Pending,"702 Main St, City20",City6,India,Gift Card,17.69,Electronics,SR14,North,2025-12-27,9,No,Male
+1098,C099,2025-12-03,P123,4,6.7,Shipped,"129 Main St, City4",City2,UK,PayPal,2.75,Books,SR16,South,2026-01-01,8,Yes,Male
+1099,C005,2025-12-09,P113,3,56.68,Returned,"280 Main St, City6",City20,UK,PayPal,6.02,Electronics,SR08,West,2025-12-31,2,Yes,Female
+1100,C153,2025-12-18,P101,9,59.19,Pending,"605 Main St, City1",City19,USA,Cash,4.81,Home,SR06,North,2026-01-04,6,Yes,Other
+1101,C140,2025-12-17,P132,9,5.94,Returned,"150 Main St, City2",City14,Germany,Cash,5.07,Electronics,SR12,North,2025-12-24,4,Yes,Other
+1102,C189,2025-12-25,P121,3,8.25,Cancelled,"227 Main St, City16",City9,Australia,Gift Card,19.62,Home,SR06,South,2025-12-06,8,Yes,Female
+1103,C052,2025-12-02,P112,1,34.29,Cancelled,"375 Main St, City11",City3,Australia,Gift Card,5.07,Sports,SR07,East,2025-12-24,1,No,Female
+1104,C032,2025-12-26,P123,7,89.38,Returned,"347 Main St, City12",City8,India,Gift Card,13.84,Books,SR17,East,2025-12-07,7,Yes,Female
+1105,C155,2025-12-27,P111,9,32.19,Shipped,"644 Main St, City12",City9,Canada,Cash,6.13,Toys,SR14,South,2025-12-30,6,No,Male
+1106,C187,2025-12-28,P122,10,99.81,Cancelled,"123 Main St, City14",City8,USA,Gift Card,7.27,Sports,SR06,North,2025-12-11,10,No,Male
+1107,C033,2025-12-03,P115,6,38.76,Shipped,"972 Main St, City2",City12,Canada,Gift Card,18.98,Books,SR15,North,2025-12-10,9,No,Female
+1108,C081,2025-12-21,P117,4,96.2,Shipped,"418 Main St, City8",City2,Germany,Gift Card,18.27,Electronics,SR09,East,2025-12-30,4,No,Other
+1109,C126,2025-12-07,P107,3,85.86,Returned,"292 Main St, City17",City11,Germany,Credit Card,16.21,Books,SR12,North,2026-01-05,5,No,Male
+1110,C183,2025-12-23,P144,3,80.18,Pending,"351 Main St, City10",City11,Australia,PayPal,4.73,Home,SR01,East,2025-12-25,8,Yes,Other
+1111,C023,2025-12-03,P119,7,99.95,Returned,"170 Main St, City9",City6,Australia,Gift Card,16.47,Electronics,SR05,East,2025-12-06,8,No,Other
+1112,C133,2025-12-12,P108,9,65.41,Pending,"155 Main St, City3",City11,Germany,Credit Card,16.63,Toys,SR05,East,2025-12-12,3,No,Other
+1113,C058,2025-12-12,P133,5,85.2,Cancelled,"989 Main St, City8",City14,France,Cash,2.5,Books,SR20,North,2026-01-03,3,Yes,Male
+1114,C169,2025-12-20,P146,10,36.4,Shipped,"544 Main St, City17",City4,USA,Cash,13.02,Toys,SR14,North,2026-01-02,9,No,Other
+1115,C078,2025-12-16,P115,7,32.54,Shipped,"658 Main St, City4",City20,India,Gift Card,8.31,Home,SR07,East,2025-12-11,6,No,Other
+1116,C089,2025-12-13,P108,6,53.43,Shipped,"815 Main St, City20",City1,Germany,Credit Card,5.35,Clothing,SR05,North,2025-12-05,5,No,Other
+1117,C108,2025-12-08,P110,6,93.63,Cancelled,"512 Main St, City15",City5,India,Gift Card,19.92,Home,SR16,East,2026-01-02,1,Yes,Female
+1118,C130,2025-12-15,P115,4,59.99,Shipped,"262 Main St, City20",City5,Germany,Gift Card,5.71,Electronics,SR04,West,2025-12-10,5,No,Female
+1119,C094,2025-12-02,P125,1,58.74,Pending,"314 Main St, City11",City5,UK,Credit Card,7.73,Home,SR18,East,2025-12-09,3,Yes,Female
+1120,C096,2025-12-26,P121,9,94.13,Pending,"989 Main St, City8",City15,France,Gift Card,10.0,Electronics,SR02,South,2025-12-23,8,No,Male
+1121,C156,2025-12-29,P132,3,35.47,Cancelled,"918 Main St, City1",City18,France,Cash,11.87,Toys,SR17,West,2025-12-21,8,Yes,Female
+1122,C085,2025-12-22,P107,7,60.03,Shipped,"979 Main St, City15",City3,UK,PayPal,14.43,Toys,SR16,South,2026-01-04,10,No,Male
+1123,C175,2025-12-08,P102,10,95.02,Shipped,"512 Main St, City15",City2,Germany,Cash,8.38,Home,SR07,West,2026-01-03,10,No,Other
+1124,C187,2025-12-02,P145,3,53.78,Cancelled,"696 Main St, City5",City8,France,Gift Card,6.28,Clothing,SR15,East,2026-01-05,6,No,Other
+1125,C124,2025-12-07,P115,5,57.57,Pending,"372 Main St, City15",City2,UK,PayPal,13.8,Home,SR11,West,2025-12-24,9,No,Female
+1126,C032,2025-12-19,P143,9,40.44,Returned,"254 Main St, City20",City2,Australia,PayPal,5.81,Books,SR03,East,2025-12-30,5,No,Male
+1127,C052,2025-12-27,P134,5,93.56,Cancelled,"754 Main St, City5",City17,France,PayPal,4.85,Sports,SR17,South,2025-12-16,1,Yes,Female
+1128,C085,2025-12-23,P130,2,69.38,Pending,"713 Main St, City5",City19,India,Gift Card,13.06,Home,SR16,South,2025-12-20,6,No,Other
+1129,C016,2025-12-30,P149,2,66.61,Pending,"211 Main St, City4",City3,Canada,Credit Card,18.26,Clothing,SR14,South,2025-12-04,7,No,Male
+1130,C192,2025-12-31,P118,1,4.88,Shipped,"512 Main St, City20",City5,Germany,Gift Card,17.79,Clothing,SR17,West,2025-12-19,4,Yes,Female
+1131,C042,2025-12-24,P129,5,72.98,Shipped,"418 Main St, City8",City8,Australia,Cash,11.36,Clothing,SR06,West,2025-12-29,9,No,Male
+1132,C103,2025-12-22,P106,3,98.23,Returned,"192 Main St, City5",City5,USA,Cash,7.67,Home,SR09,East,2025-12-21,10,Yes,Female
+1133,C168,2025-12-12,P144,4,9.95,Shipped,"330 Main St, City5",City20,India,Gift Card,13.72,Sports,SR10,North,2025-12-20,6,Yes,Male
+1134,C035,2025-12-16,P109,8,75.77,Cancelled,"190 Main St, City20",City20,France,Gift Card,15.15,Sports,SR07,South,2025-12-07,9,No,Other
+1135,C181,2025-12-12,P104,10,14.76,Pending,"765 Main St, City1",City6,India,PayPal,6.56,Toys,SR15,North,2025-12-15,10,No,Male
+1136,C131,2025-12-15,P103,8,16.66,Returned,"800 Main St, City4",City6,USA,Gift Card,13.46,Books,SR01,West,2025-12-18,1,Yes,Other
+1137,C019,2025-12-02,P127,6,71.23,Shipped,"393 Main St, City15",City9,USA,Cash,8.18,Clothing,SR14,East,2025-12-26,8,No,Female
+1138,C021,2025-12-22,P142,9,16.76,Cancelled,"938 Main St, City19",City3,France,Gift Card,10.58,Sports,SR08,North,2025-12-03,5,No,Other
+1139,C185,2025-12-18,P127,9,40.4,Pending,"569 Main St, City3",City5,UK,PayPal,5.51,Sports,SR04,North,2025-12-28,10,Yes,Male
+1140,C053,2025-12-03,P106,10,7.21,Shipped,"364 Main St, City11",City3,USA,Gift Card,8.78,Toys,SR07,North,2025-12-10,9,No,Male
+1141,C188,2025-12-19,P120,10,61.39,Cancelled,"885 Main St, City5",City6,India,PayPal,8.27,Books,SR02,South,2025-12-29,9,No,Male
+1142,C089,2025-12-31,P141,7,79.43,Cancelled,"595 Main St, City16",City3,Germany,PayPal,6.0,Clothing,SR18,West,2025-12-17,4,No,Other
+1143,C037,2025-12-26,P129,1,57.98,Returned,"625 Main St, City9",City19,India,Gift Card,4.86,Clothing,SR11,North,2025-12-30,6,Yes,Other
+1144,C186,2025-12-27,P112,1,29.76,Shipped,"132 Main St, City19",City18,Australia,PayPal,9.59,Books,SR10,North,2025-12-15,4,Yes,Other
+1145,C194,2025-12-16,P115,10,71.55,Returned,"309 Main St, City5",City5,UK,Cash,7.61,Toys,SR12,East,2025-12-18,6,No,Female
+1146,C026,2025-12-26,P146,8,77.11,Cancelled,"372 Main St, City18",City12,UK,Gift Card,0.91,Clothing,SR05,North,2025-12-18,9,No,Female
+1147,C040,2025-12-07,P121,4,40.45,Pending,"588 Main St, City15",City19,Canada,Cash,5.15,Home,SR16,West,2025-12-12,6,Yes,Male
+1148,C185,2025-12-18,P131,3,92.01,Shipped,"170 Main St, City9",City5,Australia,Credit Card,18.9,Sports,SR02,North,2025-12-28,3,Yes,Male
+1149,C182,2025-12-05,P100,4,52.54,Cancelled,"311 Main St, City18",City15,Canada,Gift Card,13.19,Electronics,SR01,West,2025-12-02,1,No,Other
+1150,C074,2025-12-01,P132,7,81.38,Pending,"317 Main St, City5",City8,France,PayPal,4.82,Toys,SR17,East,2025-12-24,5,No,Male
+1151,C096,2025-12-31,P125,8,58.23,Pending,"372 Main St, City15",City7,Australia,Credit Card,13.07,Sports,SR02,North,2025-12-27,7,No,Other
+1152,C122,2025-12-02,P140,1,71.46,Shipped,"588 Main St, City15",City5,Canada,Cash,11.32,Electronics,SR17,North,2025-12-16,4,No,Female
+1153,C012,2025-12-30,P104,5,90.32,Shipped,"453 Main St, City8",City15,USA,PayPal,11.74,Sports,SR13,North,2025-12-21,3,Yes,Other
+1154,C100,2025-12-22,P134,6,40.84,Pending,"658 Main St, City4",City17,USA,Cash,1.07,Home,SR08,North,2025-12-23,10,No,Female
+1155,C008,2025-12-21,P117,8,51.09,Cancelled,"724 Main St, City13",City11,Germany,PayPal,13.59,Sports,SR13,North,2025-12-20,4,Yes,Male
+1156,C069,2025-12-05,P124,3,75.0,Cancelled,"314 Main St, City11",City17,USA,Credit Card,18.86,Home,SR12,East,2025-12-08,3,Yes,Male
+1157,C111,2025-12-15,P135,9,53.18,Shipped,"712 Main St, City18",City13,UK,Credit Card,11.94,Books,SR13,North,2025-12-20,7,No,Male
+1158,C186,2025-12-29,P135,4,58.9,Pending,"242 Main St, City8",City6,India,PayPal,5.38,Books,SR16,South,2025-12-06,3,No,Female
+1159,C108,2025-12-10,P130,2,38.66,Pending,"323 Main St, City14",City18,Germany,PayPal,9.16,Clothing,SR10,North,2025-12-27,6,No,Female
+1160,C113,2025-12-11,P127,10,17.06,Cancelled,"972 Main St, City2",City18,India,Gift Card,6.28,Home,SR11,East,2026-01-02,10,Yes,Female
+1161,C097,2025-12-09,P125,6,14.92,Pending,"459 Main St, City11",City8,India,Credit Card,19.06,Home,SR07,West,2025-12-20,2,No,Other
+1162,C128,2025-12-05,P140,5,27.22,Pending,"452 Main St, City6",City10,Australia,Gift Card,1.48,Toys,SR16,West,2026-01-05,9,No,Other
+1163,C010,2025-12-26,P123,9,61.0,Shipped,"317 Main St, City5",City15,India,Cash,3.33,Toys,SR02,West,2025-12-23,7,Yes,Male
+1164,C026,2025-12-09,P114,9,75.69,Pending,"800 Main St, City14",City13,Germany,Gift Card,15.45,Toys,SR17,South,2025-12-24,1,No,Male
+1165,C076,2025-12-14,P105,2,83.8,Pending,"462 Main St, City18",City18,UK,Gift Card,15.69,Toys,SR16,East,2026-01-01,2,No,Other
+1166,C179,2025-12-15,P120,2,32.82,Shipped,"951 Main St, City17",City7,Canada,Credit Card,13.54,Clothing,SR08,South,2025-12-12,6,No,Female
+1167,C060,2025-12-26,P125,3,21.88,Returned,"857 Main St, City6",City3,Canada,PayPal,8.99,Home,SR13,North,2025-12-15,4,No,Other
+1168,C017,2025-12-19,P106,9,21.94,Cancelled,"989 Main St, City8",City5,USA,Cash,13.41,Home,SR17,East,2025-12-26,10,No,Other
+1169,C030,2025-12-12,P122,8,63.26,Cancelled,"432 Main St, City18",City11,USA,PayPal,6.26,Clothing,SR10,North,2025-12-13,6,Yes,Other
+1170,C100,2025-12-14,P138,3,59.17,Returned,"708 Main St, City3",City18,Canada,PayPal,11.1,Home,SR10,South,2025-12-13,6,No,Other
+1171,C014,2025-12-28,P122,1,50.51,Pending,"347 Main St, City12",City2,France,Gift Card,8.18,Home,SR14,West,2026-01-02,3,Yes,Other
+1172,C008,2025-12-26,P148,4,32.03,Cancelled,"510 Main St, City3",City6,UK,PayPal,15.61,Toys,SR16,North,2025-12-09,5,No,Other
+1173,C194,2025-12-02,P148,8,56.44,Returned,"786 Main St, City6",City13,Australia,PayPal,5.95,Electronics,SR15,East,2025-12-24,2,No,Male
+1174,C199,2025-12-26,P115,4,81.82,Cancelled,"290 Main St, City17",City10,Canada,Gift Card,3.32,Clothing,SR07,South,2025-12-05,10,No,Other
+1175,C072,2025-12-20,P134,3,35.06,Cancelled,"605 Main St, City1",City13,UK,Credit Card,2.71,Home,SR02,East,2025-12-10,3,Yes,Male
+1176,C183,2025-12-11,P115,7,50.98,Cancelled,"519 Main St, City16",City3,Germany,Gift Card,1.51,Electronics,SR13,East,2025-12-25,8,No,Female
+1177,C149,2025-12-01,P149,2,74.16,Returned,"272 Main St, City17",City16,Canada,Cash,17.0,Toys,SR13,South,2025-12-29,4,No,Female
+1178,C083,2025-12-27,P118,6,56.53,Pending,"574 Main St, City5",City18,Australia,Cash,17.88,Electronics,SR02,North,2025-12-31,1,Yes,Male
+1179,C113,2025-12-15,P100,7,23.41,Pending,"767 Main St, City20",City6,India,Cash,1.87,Books,SR09,North,2025-12-25,3,Yes,Female
+1180,C161,2025-12-10,P146,4,45.2,Shipped,"642 Main St, City6",City8,USA,PayPal,9.54,Clothing,SR19,South,2026-01-04,8,Yes,Male
+1181,C179,2025-12-11,P107,7,70.62,Returned,"132 Main St, City19",City13,Germany,Credit Card,14.62,Electronics,SR04,East,2025-12-25,5,Yes,Female
+1182,C199,2025-12-27,P148,3,65.58,Pending,"393 Main St, City15",City19,France,Credit Card,12.21,Clothing,SR15,East,2025-12-15,3,No,Other
+1183,C176,2025-12-15,P113,2,90.06,Pending,"709 Main St, City18",City13,France,Gift Card,7.03,Home,SR11,South,2025-12-17,5,Yes,Male
+1184,C142,2025-12-20,P138,10,31.34,Shipped,"530 Main St, City17",City6,India,PayPal,14.96,Books,SR02,South,2026-01-02,7,Yes,Male
+1185,C128,2025-12-21,P138,2,54.71,Shipped,"314 Main St, City11",City19,India,Gift Card,17.22,Toys,SR14,East,2026-01-05,3,No,Male
+1186,C005,2025-12-19,P104,1,29.16,Shipped,"311 Main St, City18",City3,France,Cash,12.57,Toys,SR14,West,2025-12-27,2,Yes,Female
+1187,C022,2025-12-10,P105,9,92.4,Pending,"402 Main St, City20",City9,Germany,Credit Card,6.2,Home,SR08,North,2025-12-17,2,No,Male
+1188,C117,2025-12-20,P138,1,33.68,Pending,"938 Main St, City19",City10,Canada,PayPal,14.03,Clothing,SR16,East,2026-01-04,9,No,Male
+1189,C096,2025-12-05,P147,5,74.35,Shipped,"477 Main St, City3",City3,UK,Gift Card,5.44,Electronics,SR09,North,2026-01-02,8,No,Male
+1190,C128,2025-12-28,P136,3,39.29,Cancelled,"477 Main St, City3",City8,France,Credit Card,4.57,Toys,SR01,North,2025-12-02,4,Yes,Female
+1191,C094,2025-12-13,P109,3,93.38,Shipped,"724 Main St, City13",City11,Canada,Gift Card,4.49,Clothing,SR14,East,2025-12-19,2,No,Male
+1192,C129,2025-12-22,P103,3,25.42,Shipped,"456 Main St, City1",City18,Germany,Cash,15.47,Books,SR11,North,2025-12-31,1,No,Male
+1193,C075,2025-12-19,P119,10,27.28,Cancelled,"459 Main St, City11",City4,Australia,PayPal,14.65,Toys,SR08,South,2025-12-02,7,Yes,Male
+1194,C139,2025-12-12,P140,1,95.29,Shipped,"602 Main St, City13",City4,Germany,Cash,2.08,Toys,SR08,West,2026-01-02,1,Yes,Other
+1195,C072,2025-12-03,P102,4,90.13,Returned,"761 Main St, City4",City13,Germany,Credit Card,11.62,Toys,SR05,West,2025-12-06,10,Yes,Female
+1196,C170,2025-12-31,P108,4,31.99,Cancelled,"260 Main St, City14",City20,Australia,Cash,6.36,Books,SR08,North,2025-12-14,3,Yes,Male
+1197,C028,2025-12-06,P128,8,34.14,Shipped,"402 Main St, City20",City15,Australia,PayPal,9.04,Home,SR09,North,2025-12-07,3,No,Other
+1198,C179,2025-12-20,P102,4,84.24,Cancelled,"546 Main St, City6",City6,Canada,PayPal,19.37,Home,SR17,North,2025-12-21,5,Yes,Male
+1199,C104,2025-12-28,P128,9,75.81,Pending,"318 Main St, City8",City19,USA,PayPal,2.43,Electronics,SR08,South,2025-12-14,7,No,Other
+1200,C162,2025-12-31,P141,2,59.89,Cancelled,"771 Main St, City13",City15,USA,PayPal,18.05,Home,SR05,North,2025-12-23,2,Yes,Female
+1201,C013,2025-12-06,P136,7,82.87,Returned,"588 Main St, City15",City3,Germany,Gift Card,3.46,Clothing,SR06,East,2025-12-19,8,Yes,Male
+1202,C158,2025-12-20,P139,4,66.13,Returned,"170 Main St, City12",City19,Germany,Credit Card,1.75,Home,SR05,West,2025-12-14,9,Yes,Other
+1203,C140,2025-12-26,P101,7,79.05,Cancelled,"153 Main St, City18",City8,Australia,Gift Card,6.88,Toys,SR17,East,2025-12-26,5,Yes,Male
+1204,C082,2025-12-20,P114,1,89.98,Cancelled,"765 Main St, City4",City9,France,Cash,15.34,Clothing,SR06,North,2025-12-17,4,No,Other
+1205,C189,2025-12-02,P148,4,59.26,Returned,"903 Main St, City18",City9,India,PayPal,11.85,Sports,SR12,North,2025-12-24,10,Yes,Other
+1206,C049,2025-12-27,P131,9,33.66,Returned,"438 Main St, City12",City6,USA,PayPal,12.03,Electronics,SR17,West,2025-12-02,6,Yes,Male
+1207,C088,2025-12-23,P111,6,9.71,Pending,"211 Main St, City10",City10,India,Credit Card,16.93,Books,SR03,East,2025-12-27,10,Yes,Female
+1208,C078,2025-12-11,P108,3,74.3,Returned,"123 Main St, City14",City18,Canada,Cash,3.48,Toys,SR20,East,2025-12-16,10,Yes,Female
+1209,C079,2025-12-24,P144,5,16.22,Shipped,"761 Main St, City4",City13,Germany,Credit Card,3.64,Books,SR20,South,2025-12-08,8,Yes,Female
+1210,C191,2025-12-03,P115,6,98.3,Pending,"272 Main St, City17",City13,Australia,Cash,8.93,Books,SR07,South,2025-12-06,6,No,Male
+1211,C185,2025-12-01,P103,7,46.06,Returned,"584 Main St, City2",City6,Germany,Gift Card,7.02,Home,SR04,West,2025-12-16,3,No,Male
+1212,C009,2025-12-10,P101,6,29.06,Shipped,"132 Main St, City19",City7,India,Gift Card,3.22,Electronics,SR18,North,2025-12-23,10,No,Other
+1213,C008,2025-12-14,P141,3,62.29,Returned,"237 Main St, City4",City6,USA,Cash,4.11,Clothing,SR14,East,2025-12-20,5,Yes,Male
+1214,C013,2025-12-13,P136,9,84.62,Pending,"819 Main St, City19",City5,USA,Gift Card,1.75,Sports,SR20,West,2025-12-14,2,Yes,Male
+1215,C044,2025-12-21,P118,2,49.45,Shipped,"886 Main St, City3",City3,Germany,Gift Card,17.9,Books,SR03,West,2025-12-13,6,No,Female
+1216,C048,2025-12-15,P102,5,46.21,Cancelled,"510 Main St, City3",City10,France,Credit Card,3.02,Sports,SR04,North,2025-12-24,9,No,Other
+1217,C059,2025-12-18,P103,7,82.56,Returned,"402 Main St, City20",City7,Australia,Gift Card,11.45,Clothing,SR16,East,2025-12-07,7,Yes,Other
+1218,C147,2025-12-29,P133,10,69.03,Pending,"938 Main St, City19",City2,Germany,PayPal,18.98,Clothing,SR07,South,2025-12-10,1,No,Male
+1219,C175,2025-12-14,P112,3,84.06,Cancelled,"815 Main St, City20",City3,Australia,Credit Card,1.74,Toys,SR13,East,2025-12-19,9,No,Male
+1220,C180,2025-12-20,P137,9,79.03,Shipped,"190 Main St, City20",City15,India,Credit Card,18.5,Toys,SR04,East,2026-01-05,6,No,Female
+1221,C099,2025-12-21,P131,10,62.45,Shipped,"292 Main St, City17",City6,Germany,PayPal,12.36,Sports,SR13,North,2025-12-27,6,Yes,Male
+1222,C191,2025-12-16,P117,6,5.93,Cancelled,"718 Main St, City3",City10,Australia,Gift Card,17.16,Sports,SR04,South,2025-12-10,5,No,Female
+1223,C069,2025-12-24,P126,10,65.96,Pending,"115 Main St, City18",City7,Australia,Gift Card,14.82,Toys,SR12,North,2026-01-03,3,Yes,Female
+1224,C182,2025-12-17,P125,3,78.92,Shipped,"292 Main St, City17",City4,Australia,PayPal,16.74,Clothing,SR02,West,2025-12-05,6,Yes,Female
+1225,C095,2025-12-27,P129,9,42.1,Shipped,"216 Main St, City1",City3,India,Cash,9.78,Home,SR06,West,2025-12-24,6,Yes,Female
+1226,C192,2025-12-27,P144,2,31.36,Returned,"262 Main St, City20",City2,Australia,PayPal,17.14,Sports,SR08,South,2025-12-19,7,Yes,Other
+1227,C003,2025-12-16,P108,3,61.7,Shipped,"510 Main St, City3",City5,France,Cash,14.25,Sports,SR09,West,2025-12-26,6,No,Female
+1228,C056,2025-12-15,P119,9,83.12,Returned,"823 Main St, City17",City8,USA,Cash,11.23,Toys,SR20,East,2025-12-21,2,No,Male
+1229,C087,2025-12-09,P140,6,86.69,Cancelled,"369 Main St, City20",City11,Canada,Cash,3.77,Toys,SR08,North,2025-12-27,6,Yes,Other
+1230,C007,2025-12-21,P131,5,28.89,Returned,"588 Main St, City1",City17,Canada,Credit Card,11.66,Toys,SR07,East,2025-12-16,9,No,Other
+1231,C092,2025-12-17,P119,3,84.69,Pending,"713 Main St, City13",City8,Germany,PayPal,14.82,Sports,SR18,South,2025-12-23,2,Yes,Female
+1232,C058,2025-12-24,P119,7,79.65,Cancelled,"801 Main St, City20",City10,France,Cash,9.28,Electronics,SR16,North,2025-12-06,8,Yes,Other
+1233,C031,2025-12-28,P143,7,54.85,Returned,"819 Main St, City19",City15,India,PayPal,6.85,Toys,SR15,South,2025-12-22,3,Yes,Female
+1234,C086,2025-12-21,P111,6,64.9,Shipped,"220 Main St, City12",City6,India,PayPal,11.53,Clothing,SR16,North,2025-12-10,10,No,Other
+1235,C110,2025-12-13,P127,8,40.79,Shipped,"211 Main St, City4",City11,Canada,Cash,19.0,Books,SR17,South,2025-12-03,1,Yes,Male
+1236,C178,2025-12-29,P122,5,16.37,Returned,"989 Main St, City8",City1,UK,PayPal,1.31,Electronics,SR10,East,2025-12-31,9,No,Female
+1237,C176,2025-12-05,P121,8,38.48,Pending,"584 Main St, City2",City1,USA,PayPal,4.49,Clothing,SR07,North,2026-01-03,3,Yes,Female
+1238,C183,2025-12-21,P102,7,88.14,Cancelled,"477 Main St, City3",City10,France,Credit Card,11.88,Electronics,SR04,North,2025-12-05,2,No,Female
+1239,C098,2025-12-04,P135,5,49.53,Pending,"372 Main St, City18",City18,Canada,Credit Card,6.02,Sports,SR04,East,2025-12-10,7,Yes,Other
+1240,C185,2025-12-20,P107,5,14.94,Shipped,"588 Main St, City15",City11,France,PayPal,15.56,Toys,SR07,East,2025-12-28,5,Yes,Male
+1241,C141,2025-12-16,P113,8,35.73,Shipped,"234 Main St, City17",City12,USA,Credit Card,16.7,Sports,SR16,South,2025-12-07,9,Yes,Other
+1242,C186,2025-12-04,P116,4,47.84,Cancelled,"532 Main St, City8",City19,USA,Credit Card,16.26,Electronics,SR10,East,2025-12-22,7,Yes,Male
+1243,C195,2025-12-29,P102,1,85.78,Pending,"685 Main St, City10",City15,Germany,Cash,17.57,Electronics,SR12,East,2025-12-13,2,No,Female
+1244,C117,2025-12-09,P124,8,80.78,Pending,"280 Main St, City6",City11,Canada,Credit Card,19.63,Clothing,SR04,West,2026-01-01,10,No,Male
+1245,C157,2025-12-13,P149,6,62.68,Pending,"341 Main St, City16",City18,USA,Gift Card,8.81,Electronics,SR09,East,2025-12-02,9,Yes,Other
+1246,C087,2025-12-17,P133,10,13.13,Pending,"341 Main St, City16",City4,Canada,Gift Card,2.97,Toys,SR20,North,2025-12-02,3,No,Female
+1247,C043,2025-12-03,P148,8,34.77,Cancelled,"991 Main St, City2",City13,France,PayPal,11.01,Home,SR13,South,2025-12-07,8,No,Other
+1248,C115,2025-12-03,P131,8,34.33,Returned,"778 Main St, City16",City3,USA,Credit Card,8.07,Electronics,SR18,North,2025-12-07,10,No,Other
+1249,C144,2025-12-07,P141,8,95.22,Cancelled,"819 Main St, City19",City14,Australia,Gift Card,6.64,Toys,SR20,West,2025-12-25,8,Yes,Male
+1250,C195,2025-12-22,P114,1,36.76,Cancelled,"262 Main St, City15",City9,UK,Credit Card,0.92,Clothing,SR16,South,2025-12-28,2,No,Other
+1251,C051,2025-12-07,P107,7,24.69,Pending,"452 Main St, City6",City8,USA,Gift Card,0.93,Sports,SR19,North,2025-12-30,8,Yes,Female
+1252,C002,2025-12-17,P147,1,57.1,Returned,"823 Main St, City17",City9,France,PayPal,13.84,Clothing,SR05,North,2025-12-26,10,No,Other
+1253,C099,2025-12-14,P138,4,30.26,Cancelled,"713 Main St, City13",City19,Australia,PayPal,2.76,Toys,SR17,East,2025-12-22,9,Yes,Male
+1254,C054,2025-12-20,P145,5,69.9,Pending,"290 Main St, City17",City2,India,Cash,14.21,Books,SR18,West,2025-12-28,9,No,Female
+1255,C004,2025-12-17,P106,1,40.55,Shipped,"852 Main St, City20",City8,India,Cash,15.0,Clothing,SR10,East,2025-12-11,1,No,Male
+1256,C193,2025-12-18,P102,6,82.14,Shipped,"432 Main St, City18",City17,Canada,PayPal,14.85,Toys,SR13,South,2026-01-03,5,Yes,Female
+1257,C100,2025-12-14,P143,6,96.71,Shipped,"234 Main St, City17",City19,UK,PayPal,12.41,Home,SR08,East,2026-01-05,10,Yes,Other
+1258,C050,2025-12-10,P128,3,98.4,Shipped,"708 Main St, City3",City9,Canada,Credit Card,7.54,Home,SR09,East,2025-12-10,3,No,Male
+1259,C085,2025-12-15,P145,3,7.82,Cancelled,"979 Main St, City15",City6,Australia,Cash,9.81,Toys,SR18,East,2025-12-06,6,Yes,Male
+1260,C134,2025-12-03,P132,3,43.92,Returned,"749 Main St, City19",City1,India,PayPal,13.27,Books,SR12,East,2025-12-15,10,No,Other
+1261,C193,2025-12-21,P100,2,68.21,Returned,"309 Main St, City5",City10,France,PayPal,19.18,Sports,SR11,West,2025-12-09,7,No,Other
+1262,C186,2025-12-10,P101,9,82.91,Cancelled,"375 Main St, City11",City9,Germany,Gift Card,0.88,Sports,SR07,East,2026-01-03,2,Yes,Male
+1263,C198,2025-12-18,P134,1,64.18,Pending,"852 Main St, City20",City3,Australia,PayPal,17.3,Home,SR04,South,2026-01-05,7,Yes,Other
+1264,C176,2025-12-05,P101,8,72.81,Shipped,"276 Main St, City13",City14,USA,PayPal,15.88,Toys,SR03,South,2025-12-18,7,No,Female
+1265,C162,2025-12-13,P127,6,5.61,Shipped,"211 Main St, City4",City6,Canada,Credit Card,15.12,Toys,SR02,North,2025-12-24,9,Yes,Female
+1266,C176,2025-12-10,P138,2,31.02,Returned,"531 Main St, City6",City3,Australia,Credit Card,9.48,Toys,SR08,South,2025-12-27,9,No,Other
+1267,C037,2025-12-10,P143,6,95.9,Shipped,"724 Main St, City13",City18,India,Credit Card,0.84,Toys,SR20,West,2026-01-05,9,Yes,Female
+1268,C054,2025-12-24,P147,6,24.32,Pending,"918 Main St, City1",City2,India,Cash,3.89,Clothing,SR19,North,2025-12-31,9,Yes,Female
+1269,C172,2025-12-03,P116,2,22.94,Returned,"685 Main St, City10",City15,India,PayPal,2.0,Toys,SR03,South,2025-12-22,8,No,Female
+1270,C158,2025-12-22,P119,10,18.62,Cancelled,"834 Main St, City7",City19,India,Credit Card,6.26,Clothing,SR14,East,2025-12-25,3,No,Female
+1271,C119,2025-12-15,P122,5,50.74,Shipped,"292 Main St, City17",City1,France,Credit Card,16.84,Clothing,SR18,South,2025-12-18,2,Yes,Male
+1272,C130,2025-12-21,P101,10,59.56,Pending,"438 Main St, City12",City5,UK,Gift Card,13.08,Clothing,SR12,West,2025-12-16,10,No,Male
+1273,C119,2025-12-17,P132,2,42.08,Shipped,"696 Main St, City5",City1,Australia,PayPal,15.14,Clothing,SR15,South,2025-12-13,10,Yes,Other
+1274,C188,2025-12-16,P122,1,25.0,Returned,"518 Main St, City9",City10,UK,Cash,4.68,Sports,SR07,East,2025-12-26,8,No,Male
+1275,C011,2025-12-21,P120,2,71.55,Cancelled,"887 Main St, City7",City5,France,PayPal,7.53,Home,SR12,North,2026-01-04,5,No,Male
+1276,C133,2025-12-13,P122,6,50.73,Returned,"972 Main St, City2",City6,France,PayPal,8.8,Clothing,SR03,East,2025-12-15,3,Yes,Male
+1277,C093,2025-12-20,P145,2,67.46,Returned,"685 Main St, City10",City18,USA,Gift Card,13.5,Home,SR07,South,2025-12-28,1,Yes,Male
+1278,C033,2025-12-19,P137,3,16.92,Shipped,"765 Main St, City1",City15,USA,PayPal,5.17,Clothing,SR17,West,2025-12-03,5,Yes,Male
+1279,C115,2025-12-20,P130,8,20.36,Returned,"837 Main St, City1",City18,Australia,PayPal,12.46,Toys,SR09,South,2025-12-23,8,Yes,Male
+1280,C097,2025-12-13,P108,2,5.58,Returned,"817 Main St, City7",City11,USA,PayPal,9.52,Toys,SR20,North,2026-01-05,9,Yes,Male
+1281,C124,2025-12-22,P108,10,55.76,Shipped,"805 Main St, City4",City3,Canada,Gift Card,10.44,Books,SR02,West,2025-12-16,8,No,Female
+1282,C151,2025-12-26,P147,10,13.37,Pending,"821 Main St, City3",City8,Australia,PayPal,18.2,Electronics,SR10,West,2025-12-18,4,Yes,Other
+1283,C191,2025-12-26,P100,10,54.15,Shipped,"235 Main St, City4",City3,India,Cash,8.18,Electronics,SR05,West,2025-12-18,5,No,Other
+1284,C094,2025-12-20,P117,7,76.47,Returned,"724 Main St, City13",City18,Germany,PayPal,7.4,Toys,SR16,East,2025-12-21,10,No,Other
+1285,C102,2025-12-24,P108,2,75.78,Returned,"761 Main St, City4",City2,USA,PayPal,10.17,Books,SR18,North,2025-12-12,7,Yes,Male
+1286,C038,2025-12-16,P138,7,12.45,Cancelled,"952 Main St, City17",City12,USA,Credit Card,14.49,Home,SR20,East,2025-12-05,3,No,Female
+1287,C003,2025-12-07,P142,9,31.45,Shipped,"837 Main St, City1",City9,France,PayPal,12.3,Sports,SR02,East,2025-12-17,1,Yes,Male
+1288,C071,2025-12-25,P125,6,68.28,Returned,"211 Main St, City10",City11,France,Credit Card,14.74,Electronics,SR03,East,2025-12-24,6,No,Male
+1289,C156,2025-12-31,P112,8,93.24,Shipped,"353 Main St, City15",City9,Germany,Credit Card,11.17,Toys,SR10,East,2025-12-09,9,No,Other
+1290,C148,2025-12-09,P144,8,96.73,Returned,"477 Main St, City3",City4,Australia,Cash,19.22,Home,SR15,North,2026-01-01,2,No,Male
+1291,C098,2025-12-21,P114,4,80.81,Returned,"903 Main St, City18",City2,France,Credit Card,14.02,Books,SR08,East,2025-12-07,7,No,Male
+1292,C142,2025-12-30,P111,8,34.12,Pending,"765 Main St, City1",City10,India,PayPal,9.98,Clothing,SR08,South,2025-12-18,4,Yes,Male
+1293,C064,2025-12-27,P139,6,18.97,Shipped,"938 Main St, City19",City4,Canada,Gift Card,12.28,Toys,SR02,West,2025-12-25,10,No,Female
+1294,C148,2025-12-28,P117,8,21.55,Cancelled,"857 Main St, City6",City13,Australia,PayPal,1.08,Home,SR16,North,2026-01-03,6,No,Other
+1295,C199,2025-12-06,P129,2,71.02,Returned,"834 Main St, City7",City8,USA,Credit Card,13.48,Home,SR19,North,2025-12-22,6,No,Male
+1296,C141,2025-12-09,P115,5,49.24,Cancelled,"231 Main St, City15",City2,Germany,Gift Card,4.21,Sports,SR12,East,2025-12-27,5,No,Male
+1297,C147,2025-12-05,P136,4,82.15,Cancelled,"885 Main St, City5",City18,Germany,Gift Card,3.92,Sports,SR05,West,2025-12-02,3,No,Female
+1298,C035,2025-12-29,P140,9,55.25,Cancelled,"674 Main St, City16",City10,UK,Credit Card,7.97,Sports,SR06,North,2025-12-15,5,No,Other
+1299,C025,2025-12-15,P147,6,28.93,Cancelled,"712 Main St, City11",City18,Australia,Cash,6.88,Home,SR04,East,2025-12-14,10,Yes,Female
+1300,C091,2025-12-11,P143,9,50.79,Returned,"644 Main St, City12",City6,France,Cash,9.28,Clothing,SR06,East,2025-12-28,10,No,Male
+1301,C021,2025-12-06,P121,4,34.08,Cancelled,"290 Main St, City17",City10,France,Gift Card,5.42,Home,SR12,West,2025-12-28,3,Yes,Male
+1302,C033,2025-12-24,P115,5,94.27,Shipped,"644 Main St, City16",City17,Germany,Credit Card,1.91,Home,SR18,North,2025-12-03,7,Yes,Male
+1303,C068,2025-12-20,P109,2,66.85,Returned,"718 Main St, City3",City13,India,Cash,8.86,Clothing,SR05,South,2025-12-03,1,No,Female
+1304,C122,2025-12-15,P134,5,56.65,Pending,"595 Main St, City16",City5,India,Gift Card,12.62,Sports,SR19,West,2026-01-04,9,No,Female
+1305,C124,2025-12-18,P114,2,46.41,Cancelled,"170 Main St, City12",City10,India,Cash,0.21,Toys,SR05,East,2025-12-20,8,Yes,Other
+1306,C126,2025-12-31,P148,8,32.75,Returned,"605 Main St, City1",City20,India,Credit Card,10.96,Clothing,SR14,West,2025-12-27,4,Yes,Other
+1307,C189,2025-12-21,P124,7,25.17,Shipped,"875 Main St, City2",City18,India,Cash,5.69,Sports,SR18,East,2025-12-28,4,Yes,Male
+1308,C035,2025-12-10,P107,8,63.29,Cancelled,"761 Main St, City4",City13,Germany,PayPal,6.41,Clothing,SR02,North,2025-12-13,2,No,Female
+1309,C033,2025-12-23,P128,1,26.34,Pending,"234 Main St, City17",City4,India,Cash,8.4,Home,SR12,West,2025-12-04,6,Yes,Male
+1310,C015,2025-12-09,P149,7,10.84,Returned,"947 Main St, City6",City4,Australia,Cash,16.35,Electronics,SR04,South,2025-12-26,8,Yes,Other
+1311,C009,2025-12-07,P129,2,54.02,Pending,"481 Main St, City16",City17,Canada,Cash,18.72,Clothing,SR02,North,2025-12-18,8,No,Male
+1312,C093,2025-12-29,P103,4,97.42,Pending,"272 Main St, City17",City5,UK,Credit Card,3.35,Books,SR19,North,2025-12-27,4,Yes,Male
+1313,C149,2025-12-26,P144,8,70.08,Pending,"801 Main St, City20",City2,USA,PayPal,3.15,Electronics,SR20,East,2025-12-05,1,No,Other
+1314,C040,2025-12-23,P134,2,16.07,Pending,"815 Main St, City20",City18,Australia,Cash,16.11,Home,SR07,North,2025-12-26,6,Yes,Female
+1315,C011,2025-12-16,P145,8,57.66,Returned,"512 Main St, City15",City19,India,Cash,6.47,Home,SR09,South,2025-12-06,9,Yes,Female
+1316,C076,2025-12-27,P116,9,39.23,Shipped,"805 Main St, City4",City19,France,Gift Card,14.67,Electronics,SR20,East,2025-12-17,6,Yes,Other
+1317,C138,2025-12-27,P124,4,54.3,Returned,"155 Main St, City3",City5,India,Cash,6.45,Sports,SR11,North,2025-12-08,9,Yes,Male
+1318,C034,2025-12-06,P102,4,14.27,Pending,"315 Main St, City9",City5,France,Gift Card,13.16,Toys,SR20,East,2025-12-05,6,Yes,Other
+1319,C184,2025-12-03,P100,4,66.94,Shipped,"330 Main St, City5",City19,USA,Cash,11.16,Home,SR12,North,2025-12-19,9,Yes,Other
+1320,C019,2025-12-27,P119,2,94.67,Shipped,"315 Main St, City9",City17,India,Gift Card,3.79,Toys,SR08,South,2025-12-28,2,No,Other
+1321,C118,2025-12-23,P142,7,88.74,Pending,"947 Main St, City6",City19,Germany,Cash,13.15,Toys,SR20,West,2025-12-24,6,No,Female
+1322,C106,2025-12-25,P140,7,83.3,Cancelled,"168 Main St, City8",City1,France,PayPal,7.5,Toys,SR09,East,2025-12-30,8,No,Male
+1323,C186,2025-12-02,P118,10,5.56,Pending,"975 Main St, City17",City6,UK,PayPal,4.3,Books,SR01,East,2026-01-03,9,Yes,Male
+1324,C010,2025-12-15,P122,3,17.28,Cancelled,"823 Main St, City17",City5,India,Cash,16.22,Electronics,SR19,West,2025-12-15,2,No,Female
+1325,C045,2025-12-16,P144,10,82.66,Shipped,"979 Main St, City15",City10,UK,Credit Card,14.62,Toys,SR13,North,2025-12-05,6,No,Female
+1326,C107,2025-12-30,P107,4,75.77,Shipped,"272 Main St, City17",City18,Canada,Gift Card,1.08,Toys,SR02,East,2026-01-05,10,Yes,Female
+1327,C129,2025-12-23,P114,3,8.84,Returned,"800 Main St, City14",City17,France,Credit Card,4.44,Books,SR13,South,2025-12-10,6,Yes,Female
+1328,C147,2025-12-24,P103,9,42.31,Shipped,"456 Main St, City1",City17,Germany,PayPal,15.24,Home,SR18,South,2026-01-02,7,Yes,Other
+1329,C158,2025-12-24,P133,4,27.25,Cancelled,"805 Main St, City4",City18,UK,Credit Card,2.25,Home,SR14,East,2025-12-24,4,No,Female
+1330,C153,2025-12-21,P101,5,20.24,Cancelled,"432 Main St, City18",City13,France,PayPal,8.81,Clothing,SR07,East,2025-12-11,2,Yes,Other
+1331,C014,2025-12-08,P139,3,87.39,Cancelled,"234 Main St, City17",City7,Canada,Credit Card,6.1,Home,SR01,East,2025-12-15,9,Yes,Male
+1332,C140,2025-12-17,P148,5,56.67,Pending,"820 Main St, City8",City10,Canada,Credit Card,7.53,Sports,SR17,North,2025-12-18,3,Yes,Female
+1333,C052,2025-12-26,P144,10,30.03,Returned,"369 Main St, City20",City17,USA,Gift Card,13.21,Sports,SR12,North,2025-12-03,5,No,Male
+1334,C098,2025-12-17,P145,2,90.76,Returned,"979 Main St, City15",City10,USA,PayPal,3.98,Home,SR18,North,2025-12-04,4,No,Female
+1335,C126,2025-12-13,P147,3,5.75,Cancelled,"903 Main St, City18",City18,UK,PayPal,19.92,Toys,SR09,North,2025-12-18,7,Yes,Other
+1336,C072,2025-12-08,P109,6,90.12,Pending,"276 Main St, City13",City3,Germany,PayPal,8.35,Toys,SR05,West,2025-12-21,10,No,Female
+1337,C139,2025-12-05,P113,3,59.77,Pending,"754 Main St, City5",City18,Canada,PayPal,8.6,Clothing,SR19,South,2025-12-22,2,Yes,Male
+1338,C082,2025-12-27,P109,1,77.47,Returned,"170 Main St, City12",City6,Germany,Cash,3.04,Clothing,SR04,South,2025-12-13,1,No,Other
+1339,C146,2025-12-20,P114,10,26.28,Shipped,"251 Main St, City3",City4,Canada,Gift Card,2.68,Toys,SR16,East,2025-12-13,7,No,Female
+1340,C036,2025-12-06,P112,4,7.08,Shipped,"840 Main St, City2",City6,India,PayPal,15.16,Electronics,SR06,West,2026-01-02,6,No,Male
+1341,C110,2025-12-13,P149,1,62.35,Returned,"323 Main St, City14",City15,Germany,Credit Card,10.41,Home,SR15,North,2025-12-17,9,No,Other
+1342,C011,2025-12-18,P124,9,77.45,Shipped,"512 Main St, City15",City12,Germany,Gift Card,17.69,Books,SR15,South,2025-12-29,5,Yes,Other
+1343,C133,2025-12-29,P109,8,83.66,Returned,"749 Main St, City19",City18,France,Credit Card,3.6,Toys,SR18,South,2025-12-27,7,No,Female
+1344,C007,2025-12-06,P129,10,90.07,Pending,"800 Main St, City4",City6,UK,Cash,13.83,Sports,SR06,North,2025-12-07,2,No,Other
+1345,C093,2025-12-03,P133,7,73.77,Pending,"235 Main St, City4",City19,Germany,Credit Card,15.37,Books,SR19,South,2025-12-12,3,Yes,Other
+1346,C014,2025-12-14,P119,5,74.09,Returned,"262 Main St, City5",City18,India,Credit Card,17.97,Clothing,SR01,East,2025-12-02,8,No,Female
+1347,C140,2025-12-26,P100,10,88.73,Pending,"996 Main St, City17",City1,Canada,Gift Card,9.07,Home,SR03,North,2025-12-17,9,No,Other
+1348,C161,2025-12-18,P113,1,21.73,Shipped,"369 Main St, City20",City1,USA,PayPal,17.08,Sports,SR19,East,2025-12-23,2,Yes,Male
+1349,C107,2025-12-06,P110,5,62.65,Pending,"800 Main St, City4",City19,France,Cash,18.63,Electronics,SR10,East,2025-12-25,7,Yes,Female
+1350,C141,2025-12-03,P118,8,16.91,Cancelled,"685 Main St, City10",City10,Germany,PayPal,13.92,Toys,SR02,North,2026-01-04,2,No,Other
+1351,C177,2025-12-20,P145,5,44.99,Cancelled,"353 Main St, City15",City10,France,Cash,18.54,Toys,SR19,West,2026-01-04,8,No,Male
+1352,C157,2025-12-08,P145,5,98.0,Shipped,"938 Main St, City19",City3,Germany,Credit Card,14.75,Clothing,SR20,West,2025-12-28,1,No,Female
+1353,C144,2025-12-26,P140,4,5.07,Pending,"658 Main St, City4",City5,UK,Credit Card,6.16,Toys,SR18,East,2025-12-02,2,No,Female
+1354,C102,2025-12-24,P136,10,96.16,Pending,"950 Main St, City7",City14,Australia,Cash,18.45,Home,SR16,North,2025-12-10,8,Yes,Other
+1355,C118,2025-12-29,P134,6,48.39,Returned,"778 Main St, City16",City8,Australia,Cash,11.3,Sports,SR11,North,2025-12-15,10,No,Female
+1356,C017,2025-12-05,P117,1,36.55,Returned,"519 Main St, City16",City10,Australia,PayPal,11.42,Home,SR06,North,2025-12-21,6,Yes,Female
+1357,C106,2025-12-03,P131,4,39.66,Cancelled,"996 Main St, City17",City10,UK,PayPal,2.24,Electronics,SR07,North,2025-12-30,9,Yes,Female
+1358,C129,2025-12-05,P112,6,92.66,Cancelled,"805 Main St, City4",City9,India,Credit Card,16.44,Toys,SR05,South,2025-12-04,8,No,Other
+1359,C134,2025-12-04,P100,5,93.49,Shipped,"512 Main St, City20",City2,USA,Credit Card,10.41,Sports,SR10,North,2025-12-21,4,No,Male
+1360,C050,2025-12-10,P117,9,34.63,Returned,"852 Main St, City20",City7,UK,PayPal,3.15,Electronics,SR01,North,2025-12-15,9,No,Other
+1361,C082,2025-12-09,P109,5,59.1,Pending,"132 Main St, City19",City18,France,Cash,10.81,Electronics,SR05,North,2026-01-01,1,Yes,Female
+1362,C014,2025-12-03,P127,7,21.17,Returned,"432 Main St, City18",City15,UK,Cash,16.35,Sports,SR18,North,2025-12-31,10,Yes,Male
+1363,C179,2025-12-15,P106,8,33.79,Returned,"808 Main St, City9",City20,India,PayPal,17.22,Toys,SR09,East,2025-12-27,3,No,Female
+1364,C117,2025-12-16,P101,2,49.62,Cancelled,"153 Main St, City18",City19,Australia,PayPal,5.65,Books,SR20,South,2026-01-03,2,No,Other
+1365,C028,2025-12-11,P135,2,80.06,Returned,"456 Main St, City1",City11,Germany,PayPal,12.42,Toys,SR06,West,2025-12-26,2,No,Male
+1366,C178,2025-12-19,P127,7,58.44,Cancelled,"458 Main St, City16",City18,India,PayPal,13.25,Electronics,SR19,West,2025-12-09,10,No,Female
+1367,C143,2025-12-04,P128,3,33.56,Returned,"393 Main St, City15",City16,USA,Gift Card,6.55,Sports,SR02,North,2025-12-15,3,Yes,Male
+1368,C170,2025-12-05,P128,9,31.97,Returned,"989 Main St, City8",City7,Canada,Cash,5.99,Sports,SR10,West,2025-12-24,2,Yes,Other
+1369,C131,2025-12-13,P108,5,9.98,Shipped,"419 Main St, City11",City10,France,Cash,2.19,Books,SR01,South,2025-12-29,10,No,Other
+1370,C082,2025-12-23,P124,7,40.62,Pending,"696 Main St, City5",City9,Germany,PayPal,3.76,Home,SR12,West,2025-12-11,5,Yes,Male
+1371,C003,2025-12-03,P141,1,17.81,Returned,"530 Main St, City17",City5,India,Credit Card,2.74,Home,SR15,West,2025-12-13,8,No,Other
+1372,C116,2025-12-13,P122,4,21.83,Shipped,"320 Main St, City17",City7,Australia,PayPal,14.24,Books,SR14,East,2025-12-04,1,No,Other
+1373,C095,2025-12-04,P137,8,96.32,Shipped,"429 Main St, City11",City3,Canada,Cash,9.3,Electronics,SR17,North,2025-12-17,8,Yes,Other
+1374,C163,2025-12-18,P137,5,62.84,Cancelled,"211 Main St, City4",City18,USA,Gift Card,9.08,Home,SR19,East,2025-12-28,6,No,Female
+1375,C043,2025-12-02,P144,10,75.93,Cancelled,"311 Main St, City18",City3,Germany,PayPal,11.46,Sports,SR10,North,2025-12-20,8,Yes,Male
+1376,C130,2025-12-03,P117,5,16.71,Cancelled,"179 Main St, City12",City11,USA,Credit Card,12.08,Toys,SR05,West,2025-12-25,3,No,Other
+1377,C061,2025-12-16,P111,9,86.74,Cancelled,"582 Main St, City15",City15,France,PayPal,16.75,Home,SR13,South,2025-12-30,3,Yes,Other
+1378,C188,2025-12-27,P122,1,65.65,Shipped,"819 Main St, City19",City17,Germany,Gift Card,9.52,Home,SR18,South,2025-12-26,7,No,Female
+1379,C038,2025-12-17,P127,1,31.71,Returned,"531 Main St, City6",City3,UK,Credit Card,1.95,Toys,SR12,West,2025-12-19,6,No,Female
+1380,C026,2025-12-09,P141,10,41.54,Pending,"951 Main St, City19",City17,France,PayPal,10.4,Sports,SR06,East,2025-12-02,1,Yes,Male
+1381,C106,2025-12-04,P133,2,69.8,Cancelled,"952 Main St, City17",City17,UK,Cash,3.86,Electronics,SR20,North,2025-12-05,10,Yes,Other
+1382,C164,2025-12-04,P145,2,12.28,Pending,"235 Main St, City4",City4,Australia,PayPal,17.92,Sports,SR06,East,2025-12-20,8,Yes,Other
+1383,C117,2025-12-30,P117,7,70.44,Cancelled,"821 Main St, City3",City2,Australia,Credit Card,5.55,Electronics,SR13,West,2025-12-23,1,No,Female
+1384,C046,2025-12-15,P104,8,98.01,Pending,"378 Main St, City18",City18,India,Gift Card,2.17,Toys,SR14,South,2025-12-08,8,No,Male
+1385,C009,2025-12-03,P104,10,73.83,Returned,"731 Main St, City1",City7,India,Credit Card,18.66,Sports,SR13,East,2025-12-11,6,No,Other
+1386,C001,2025-12-17,P145,8,49.89,Returned,"356 Main St, City8",City18,Australia,Credit Card,10.8,Electronics,SR13,West,2025-12-09,10,No,Female
+1387,C175,2025-12-10,P125,1,64.69,Shipped,"231 Main St, City15",City10,Australia,Cash,1.61,Home,SR10,South,2025-12-13,9,Yes,Female
+1388,C170,2025-12-07,P119,7,90.05,Cancelled,"674 Main St, City16",City3,Canada,Gift Card,14.71,Clothing,SR02,South,2025-12-03,10,Yes,Female
+1389,C100,2025-12-03,P134,5,51.96,Returned,"731 Main St, City1",City13,UK,Credit Card,6.75,Sports,SR02,West,2025-12-09,4,No,Other
+1390,C138,2025-12-05,P147,10,26.36,Shipped,"438 Main St, City12",City13,India,Gift Card,13.08,Home,SR20,North,2025-12-17,3,Yes,Male
+1391,C162,2025-12-02,P119,2,47.78,Pending,"459 Main St, City11",City10,Australia,Credit Card,2.28,Toys,SR20,South,2025-12-06,4,No,Female
+1392,C189,2025-12-22,P125,6,15.59,Pending,"192 Main St, City5",City7,Australia,Credit Card,11.86,Books,SR03,North,2025-12-19,3,No,Male
+1393,C179,2025-12-12,P135,3,46.1,Shipped,"719 Main St, City5",City7,Australia,Gift Card,15.55,Electronics,SR16,North,2025-12-02,1,Yes,Male
+1394,C181,2025-12-21,P137,5,43.95,Returned,"820 Main St, City8",City14,India,PayPal,12.8,Toys,SR15,West,2025-12-17,3,Yes,Other
+1395,C047,2025-12-23,P131,10,95.22,Cancelled,"462 Main St, City18",City2,USA,PayPal,3.84,Toys,SR04,East,2026-01-05,9,Yes,Female
+1396,C198,2025-12-21,P142,4,30.53,Pending,"280 Main St, City6",City15,Canada,Gift Card,9.95,Clothing,SR02,North,2025-12-25,5,Yes,Female
+1397,C065,2025-12-11,P139,8,8.15,Shipped,"402 Main St, City20",City3,India,Credit Card,9.7,Electronics,SR03,South,2025-12-30,10,No,Female
+1398,C051,2025-12-24,P143,6,26.08,Shipped,"118 Main St, City10",City13,USA,PayPal,14.75,Clothing,SR13,South,2025-12-06,8,No,Male
+1399,C112,2025-12-05,P113,10,47.67,Returned,"801 Main St, City20",City10,Germany,PayPal,12.64,Books,SR07,East,2025-12-10,1,Yes,Female
+1400,C035,2025-12-04,P129,8,44.14,Cancelled,"952 Main St, City17",City20,France,PayPal,15.79,Sports,SR20,South,2025-12-16,2,No,Other
+1401,C126,2025-12-28,P113,10,49.44,Returned,"991 Main St, City2",City10,Canada,Gift Card,14.72,Clothing,SR08,East,2025-12-29,10,Yes,Other
+1402,C039,2025-12-30,P136,1,44.1,Shipped,"458 Main St, City16",City9,Canada,Credit Card,8.51,Home,SR16,North,2025-12-30,8,Yes,Male
+1403,C143,2025-12-25,P100,7,95.18,Pending,"251 Main St, City3",City20,India,Credit Card,0.32,Sports,SR10,South,2025-12-31,10,Yes,Female
+1404,C119,2025-12-25,P108,7,21.74,Cancelled,"519 Main St, City16",City19,Canada,Credit Card,17.21,Electronics,SR13,East,2026-01-04,1,No,Female
+1405,C193,2025-12-09,P144,10,56.06,Pending,"242 Main St, City8",City4,France,Cash,14.72,Electronics,SR17,East,2025-12-05,2,No,Female
+1406,C120,2025-12-20,P102,6,39.17,Shipped,"712 Main St, City11",City12,Australia,PayPal,2.77,Books,SR08,North,2026-01-01,10,Yes,Other
+1407,C195,2025-12-08,P120,6,90.19,Returned,"179 Main St, City12",City6,USA,Cash,6.9,Home,SR17,North,2026-01-01,9,No,Female
+1408,C159,2025-12-12,P143,2,22.07,Returned,"276 Main St, City13",City4,Germany,PayPal,5.77,Electronics,SR04,South,2025-12-19,2,Yes,Female
+1409,C039,2025-12-28,P113,9,95.39,Shipped,"713 Main St, City13",City3,Canada,PayPal,9.48,Home,SR15,North,2025-12-20,4,Yes,Male
+1410,C060,2025-12-27,P133,6,43.51,Cancelled,"369 Main St, City20",City1,Australia,Cash,9.72,Sports,SR17,West,2025-12-31,5,Yes,Female
+1411,C044,2025-12-26,P116,4,50.48,Cancelled,"477 Main St, City3",City13,India,Cash,5.69,Clothing,SR20,South,2026-01-05,5,Yes,Male
+1412,C182,2025-12-23,P142,3,19.47,Shipped,"458 Main St, City16",City19,France,PayPal,8.82,Books,SR06,South,2025-12-04,6,No,Male
+1413,C096,2025-12-15,P134,3,55.22,Shipped,"712 Main St, City18",City1,Germany,PayPal,18.96,Books,SR05,North,2026-01-05,9,No,Other
+1414,C181,2025-12-10,P130,5,97.07,Pending,"574 Main St, City5",City3,Germany,Cash,13.78,Sports,SR16,North,2025-12-10,9,Yes,Female
+1415,C007,2025-12-13,P139,4,46.8,Shipped,"118 Main St, City10",City8,France,PayPal,11.67,Clothing,SR09,South,2025-12-03,2,No,Other
+1416,C172,2025-12-31,P105,9,41.85,Returned,"815 Main St, City20",City15,France,Credit Card,18.17,Books,SR13,South,2025-12-29,6,No,Female
+1417,C004,2025-12-10,P122,6,33.57,Returned,"712 Main St, City11",City13,India,Gift Card,14.83,Home,SR15,East,2025-12-12,7,No,Male
+1418,C151,2025-12-20,P105,3,23.94,Returned,"170 Main St, City9",City11,USA,Gift Card,1.77,Home,SR09,West,2025-12-13,9,No,Other
+1419,C146,2025-12-25,P108,4,21.85,Returned,"605 Main St, City1",City5,Germany,Credit Card,16.46,Books,SR19,East,2026-01-02,9,No,Male
+1420,C007,2025-12-26,P100,3,29.21,Returned,"351 Main St, City10",City3,Canada,Cash,8.34,Home,SR08,North,2025-12-09,5,No,Male
+1421,C154,2025-12-24,P123,10,50.12,Returned,"353 Main St, City15",City18,Canada,Gift Card,19.49,Electronics,SR12,North,2025-12-18,3,Yes,Male
+1422,C082,2025-12-15,P144,3,38.3,Shipped,"840 Main St, City2",City5,Germany,Cash,0.97,Books,SR17,North,2026-01-03,4,Yes,Male
+1423,C154,2025-12-25,P110,9,34.96,Cancelled,"242 Main St, City8",City6,UK,Cash,1.92,Toys,SR12,South,2025-12-02,3,No,Female
+1424,C200,2025-12-16,P126,6,92.4,Pending,"786 Main St, City6",City1,India,PayPal,16.63,Toys,SR20,North,2025-12-28,8,Yes,Male
+1425,C034,2025-12-30,P101,8,37.42,Cancelled,"754 Main St, City5",City13,France,Cash,3.44,Books,SR01,North,2025-12-16,3,Yes,Other
+1426,C059,2025-12-10,P108,4,16.49,Shipped,"875 Main St, City2",City8,Australia,Credit Card,1.55,Home,SR14,North,2025-12-14,2,Yes,Other
+1427,C132,2025-12-19,P103,8,15.41,Cancelled,"150 Main St, City2",City10,UK,Credit Card,15.09,Electronics,SR20,South,2025-12-14,3,No,Male
+1428,C024,2025-12-05,P147,5,95.07,Cancelled,"903 Main St, City18",City2,Australia,PayPal,10.1,Electronics,SR04,North,2026-01-04,4,Yes,Female
+1429,C044,2025-12-29,P148,9,4.41,Shipped,"270 Main St, City3",City15,Australia,Gift Card,7.33,Toys,SR06,West,2025-12-08,3,No,Female
+1430,C109,2025-12-07,P132,4,43.12,Cancelled,"351 Main St, City10",City2,USA,PayPal,9.92,Books,SR10,North,2025-12-07,6,No,Male
+1431,C099,2025-12-10,P129,10,74.66,Returned,"510 Main St, City3",City5,Germany,Cash,19.7,Home,SR07,North,2026-01-01,6,Yes,Male
+1432,C173,2025-12-16,P143,2,42.04,Shipped,"938 Main St, City19",City18,Germany,Gift Card,13.9,Electronics,SR06,North,2025-12-25,4,No,Male
+1433,C153,2025-12-28,P125,2,26.35,Returned,"822 Main St, City15",City7,UK,Cash,15.13,Sports,SR13,East,2026-01-01,10,No,Female
+1434,C131,2025-12-09,P109,8,14.36,Cancelled,"626 Main St, City1",City7,India,PayPal,0.59,Sports,SR02,North,2026-01-02,1,Yes,Female
+1435,C155,2025-12-22,P120,3,33.05,Shipped,"602 Main St, City13",City12,Canada,Gift Card,15.85,Clothing,SR10,West,2026-01-02,9,No,Other
+1436,C088,2025-12-26,P134,9,5.69,Shipped,"238 Main St, City14",City7,Germany,Gift Card,6.29,Home,SR15,West,2025-12-04,1,Yes,Other
+1437,C169,2025-12-28,P149,5,88.92,Pending,"626 Main St, City1",City18,India,Cash,14.31,Home,SR04,West,2026-01-05,10,No,Female
+1438,C144,2025-12-28,P110,9,9.34,Cancelled,"754 Main St, City8",City11,Germany,Cash,15.33,Books,SR11,North,2025-12-03,10,Yes,Male
+1439,C094,2025-12-12,P147,10,6.57,Cancelled,"531 Main St, City6",City8,Germany,Cash,19.84,Home,SR12,North,2025-12-17,4,Yes,Other
+1440,C080,2025-12-19,P105,2,87.41,Shipped,"239 Main St, City10",City10,USA,Cash,0.75,Sports,SR14,West,2025-12-19,1,No,Other
+1441,C006,2025-12-11,P124,10,41.46,Shipped,"626 Main St, City1",City7,Canada,PayPal,6.72,Toys,SR11,South,2025-12-21,6,No,Male
+1442,C128,2025-12-21,P104,9,24.54,Cancelled,"262 Main St, City20",City10,France,Gift Card,16.09,Toys,SR03,North,2025-12-23,5,Yes,Other
+1443,C136,2025-12-16,P127,4,37.33,Shipped,"767 Main St, City20",City6,France,Cash,8.66,Toys,SR11,South,2025-12-28,7,No,Other
+1444,C132,2025-12-15,P142,9,21.33,Shipped,"519 Main St, City16",City10,France,PayPal,11.54,Clothing,SR15,East,2026-01-05,10,No,Other
+1445,C187,2025-12-21,P103,9,23.25,Returned,"546 Main St, City6",City1,India,Cash,16.88,Home,SR11,North,2025-12-15,7,No,Female
+1446,C166,2025-12-06,P116,10,26.66,Pending,"778 Main St, City5",City15,India,Credit Card,4.91,Books,SR15,West,2025-12-29,7,Yes,Male
+1447,C041,2025-12-09,P108,1,28.8,Cancelled,"530 Main St, City17",City19,India,Credit Card,19.28,Home,SR01,North,2025-12-07,6,No,Male
+1448,C105,2025-12-29,P123,2,42.09,Pending,"885 Main St, City5",City10,France,Credit Card,10.44,Toys,SR17,East,2026-01-02,2,Yes,Other
+1449,C032,2025-12-25,P120,6,83.89,Returned,"184 Main St, City16",City19,India,Gift Card,4.36,Electronics,SR06,South,2025-12-19,8,No,Female
+1450,C151,2025-12-02,P131,9,39.96,Shipped,"815 Main St, City20",City8,Germany,Gift Card,13.65,Books,SR05,East,2026-01-01,6,No,Male
+1451,C166,2025-12-31,P138,1,84.77,Shipped,"658 Main St, City4",City12,India,Cash,11.05,Books,SR12,North,2026-01-05,4,No,Female
+1452,C003,2025-12-30,P125,5,32.88,Pending,"372 Main St, City15",City12,Australia,PayPal,18.32,Sports,SR11,West,2025-12-04,5,Yes,Female
+1453,C121,2025-12-24,P126,6,72.86,Shipped,"918 Main St, City1",City10,UK,Credit Card,7.04,Toys,SR18,East,2025-12-31,1,Yes,Other
+1454,C165,2025-12-06,P140,8,79.93,Pending,"419 Main St, City11",City5,India,Cash,6.27,Electronics,SR04,South,2025-12-17,9,Yes,Other
+1455,C176,2025-12-14,P120,8,49.91,Pending,"353 Main St, City15",City9,Canada,Cash,15.99,Clothing,SR03,West,2025-12-25,3,No,Female
+1456,C147,2025-12-08,P101,1,92.61,Pending,"276 Main St, City13",City19,India,Cash,14.03,Clothing,SR02,West,2025-12-29,10,No,Male
+1457,C023,2025-12-31,P123,3,94.93,Shipped,"234 Main St, City17",City18,France,Gift Card,15.47,Home,SR16,North,2025-12-16,4,Yes,Female
+1458,C074,2025-12-24,P131,7,16.49,Pending,"837 Main St, City1",City1,Australia,Cash,14.53,Clothing,SR14,South,2025-12-28,3,Yes,Female
+1459,C068,2025-12-08,P139,8,91.09,Cancelled,"823 Main St, City17",City7,Canada,Gift Card,1.71,Home,SR05,East,2025-12-27,4,No,Other
+1460,C109,2025-12-24,P138,5,11.0,Shipped,"819 Main St, City19",City11,India,Gift Card,18.16,Toys,SR20,North,2025-12-02,5,No,Female
+1461,C102,2025-12-22,P123,3,96.92,Shipped,"580 Main St, City18",City3,UK,PayPal,10.07,Books,SR15,South,2025-12-07,6,No,Male
+1462,C067,2025-12-04,P120,1,97.93,Returned,"991 Main St, City2",City19,UK,Gift Card,5.66,Books,SR20,East,2026-01-04,6,No,Male
+1463,C081,2025-12-24,P131,3,57.33,Returned,"819 Main St, City19",City18,India,Credit Card,4.6,Electronics,SR16,East,2025-12-12,8,No,Male
+1464,C127,2025-12-02,P128,6,98.92,Returned,"800 Main St, City1",City4,USA,PayPal,2.47,Electronics,SR07,East,2025-12-13,3,No,Other
+1465,C170,2025-12-19,P113,10,99.8,Shipped,"170 Main St, City9",City15,France,PayPal,8.33,Electronics,SR08,West,2025-12-08,6,Yes,Female
+1466,C175,2025-12-22,P107,7,39.85,Shipped,"192 Main St, City5",City12,USA,Credit Card,9.2,Sports,SR16,West,2025-12-19,10,Yes,Female
+1467,C012,2025-12-21,P139,8,35.18,Pending,"270 Main St, City3",City13,Australia,Cash,6.46,Electronics,SR03,West,2025-12-07,7,No,Male
+1468,C062,2025-12-31,P149,7,12.55,Pending,"918 Main St, City1",City17,Australia,Gift Card,5.7,Sports,SR05,North,2025-12-21,8,No,Other
+1469,C080,2025-12-29,P143,10,16.59,Shipped,"311 Main St, City9",City12,India,Gift Card,8.91,Home,SR16,East,2025-12-29,2,No,Female
+1470,C158,2025-12-06,P127,7,12.91,Cancelled,"485 Main St, City4",City3,India,PayPal,18.61,Toys,SR17,North,2025-12-20,8,No,Male
+1471,C123,2025-12-10,P109,3,69.68,Cancelled,"569 Main St, City3",City9,Germany,Cash,11.37,Toys,SR03,North,2026-01-03,2,No,Female
+1472,C025,2025-12-15,P142,10,82.02,Cancelled,"821 Main St, City3",City2,USA,Credit Card,2.28,Sports,SR15,South,2025-12-13,7,Yes,Male
+1473,C107,2025-12-29,P145,5,34.13,Returned,"472 Main St, City10",City12,Germany,Cash,6.83,Clothing,SR07,South,2025-12-07,10,No,Other
+1474,C028,2025-12-14,P134,1,4.55,Shipped,"234 Main St, City17",City10,Canada,Gift Card,9.2,Home,SR20,West,2025-12-21,10,No,Other
+1475,C173,2025-12-31,P144,7,81.24,Shipped,"290 Main St, City1",City10,USA,PayPal,2.24,Electronics,SR07,North,2025-12-15,8,Yes,Other
+1476,C062,2025-12-14,P140,9,22.32,Cancelled,"477 Main St, City3",City19,India,Gift Card,8.44,Electronics,SR06,South,2025-12-30,8,No,Male
+1477,C116,2025-12-19,P115,4,32.29,Returned,"819 Main St, City19",City11,USA,Credit Card,12.61,Sports,SR14,West,2026-01-02,10,No,Male
+1478,C125,2025-12-13,P131,9,60.73,Returned,"518 Main St, City9",City11,USA,Credit Card,8.44,Books,SR18,North,2025-12-19,7,No,Male
+1479,C127,2025-12-20,P141,6,47.03,Returned,"951 Main St, City17",City2,UK,PayPal,9.38,Home,SR08,South,2025-12-23,10,No,Male
+1480,C076,2025-12-24,P145,7,96.13,Cancelled,"808 Main St, City9",City2,France,PayPal,5.65,Sports,SR03,West,2025-12-10,3,Yes,Male
+1481,C156,2025-12-16,P106,7,94.52,Returned,"975 Main St, City17",City20,India,Credit Card,19.99,Books,SR09,East,2025-12-12,3,Yes,Male
+1482,C087,2025-12-14,P107,10,25.75,Pending,"674 Main St, City16",City10,UK,Cash,15.39,Toys,SR09,South,2026-01-03,10,Yes,Other
+1483,C013,2025-12-30,P128,8,96.4,Shipped,"317 Main St, City5",City10,France,Credit Card,16.47,Electronics,SR17,North,2025-12-12,2,Yes,Female
+1484,C041,2025-12-24,P118,8,77.14,Returned,"951 Main St, City19",City7,India,Cash,6.69,Clothing,SR04,South,2025-12-30,7,Yes,Male
+1485,C122,2025-12-11,P118,9,20.43,Cancelled,"801 Main St, City20",City18,Australia,Gift Card,7.21,Sports,SR08,South,2026-01-04,7,Yes,Male
+1486,C110,2025-12-14,P126,8,95.37,Cancelled,"544 Main St, City17",City13,India,Credit Card,14.35,Toys,SR03,North,2025-12-23,6,No,Male
+1487,C112,2025-12-02,P125,1,67.37,Pending,"320 Main St, City17",City8,Canada,Cash,8.39,Sports,SR18,East,2025-12-22,6,Yes,Female
+1488,C136,2025-12-20,P109,7,46.82,Pending,"458 Main St, City16",City13,Australia,Gift Card,13.95,Sports,SR13,South,2025-12-21,2,Yes,Other
+1489,C086,2025-12-13,P146,3,53.96,Cancelled,"270 Main St, City3",City6,France,Cash,10.43,Sports,SR06,North,2025-12-03,9,No,Male
+1490,C199,2025-12-10,P146,7,98.74,Shipped,"951 Main St, City19",City20,Australia,Cash,5.2,Toys,SR12,North,2025-12-05,2,No,Female
+1491,C147,2025-12-24,P100,8,36.53,Pending,"778 Main St, City16",City7,France,PayPal,7.01,Books,SR19,South,2025-12-26,9,Yes,Male
+1492,C084,2025-12-17,P137,4,82.98,Cancelled,"800 Main St, City4",City7,India,Gift Card,16.57,Electronics,SR03,North,2025-12-29,3,No,Male
+1493,C115,2025-12-03,P123,9,42.65,Returned,"532 Main St, City8",City2,Germany,Gift Card,19.93,Sports,SR16,West,2025-12-12,3,Yes,Female
+1494,C183,2025-12-15,P108,9,86.86,Shipped,"820 Main St, City8",City7,Germany,Gift Card,0.65,Clothing,SR18,East,2025-12-09,10,No,Male
+1495,C031,2025-12-12,P136,5,7.86,Pending,"938 Main St, City19",City13,UK,Cash,6.07,Home,SR01,South,2025-12-11,10,No,Male
+1496,C079,2025-12-29,P118,4,21.57,Returned,"419 Main St, City11",City13,France,Cash,1.35,Electronics,SR14,West,2025-12-21,10,No,Female
+1497,C097,2025-12-16,P146,10,16.74,Pending,"992 Main St, City9",City14,Germany,Gift Card,13.34,Clothing,SR11,North,2025-12-28,7,Yes,Female
+1498,C087,2025-12-18,P102,8,74.64,Shipped,"584 Main St, City2",City12,USA,Cash,11.22,Electronics,SR18,North,2025-12-14,10,Yes,Other
+1499,C134,2025-12-07,P148,8,52.24,Shipped,"938 Main St, City19",City4,France,PayPal,19.25,Books,SR07,South,2025-12-30,2,No,Female
+1500,C151,2025-12-02,P131,1,36.63,Pending,"190 Main St, City20",City3,Australia,Cash,7.64,Electronics,SR04,North,2026-01-05,3,No,Male
+1501,C047,2025-12-09,P149,2,18.8,Returned,"909 Main St, City20",City10,USA,Cash,3.63,Sports,SR02,East,2025-12-26,2,No,Male
+1502,C106,2025-12-29,P120,5,40.04,Shipped,"819 Main St, City19",City11,India,PayPal,9.86,Toys,SR13,North,2025-12-19,1,No,Female
+1503,C142,2025-12-14,P104,8,6.77,Pending,"731 Main St, City1",City10,France,Credit Card,4.93,Toys,SR05,East,2025-12-28,8,Yes,Other
+1504,C129,2025-12-07,P109,6,55.87,Pending,"364 Main St, City11",City6,Germany,Gift Card,0.84,Home,SR20,East,2025-12-12,1,Yes,Female
+1505,C070,2025-12-20,P116,7,99.92,Pending,"823 Main St, City17",City9,UK,Credit Card,3.23,Toys,SR19,North,2025-12-21,2,No,Other
+1506,C032,2025-12-27,P108,9,99.88,Returned,"644 Main St, City16",City10,France,Cash,17.68,Books,SR09,West,2025-12-19,4,No,Female
+1507,C054,2025-12-15,P138,6,5.51,Pending,"857 Main St, City18",City18,France,Gift Card,0.09,Electronics,SR06,West,2026-01-02,7,Yes,Other
+1508,C167,2025-12-03,P134,1,89.68,Returned,"816 Main St, City9",City13,UK,Gift Card,16.55,Books,SR13,South,2025-12-02,2,No,Female
+1509,C050,2025-12-15,P100,4,75.33,Cancelled,"216 Main St, City1",City12,UK,PayPal,1.8,Toys,SR10,South,2025-12-16,8,No,Male
+1510,C072,2025-12-16,P145,10,24.06,Pending,"123 Main St, City14",City3,USA,Cash,11.38,Home,SR06,South,2025-12-13,2,Yes,Other
+1511,C017,2025-12-05,P116,10,86.12,Cancelled,"950 Main St, City7",City3,USA,Cash,13.61,Home,SR01,West,2025-12-05,6,No,Female
+1512,C071,2025-12-04,P143,9,48.78,Cancelled,"221 Main St, City16",City14,USA,PayPal,0.94,Home,SR18,West,2025-12-22,1,No,Male
+1513,C086,2025-12-03,P136,1,99.06,Pending,"658 Main St, City4",City10,USA,PayPal,3.94,Books,SR10,North,2025-12-08,1,No,Female
+1514,C007,2025-12-19,P140,6,84.68,Pending,"317 Main St, City5",City3,India,Cash,16.65,Books,SR17,South,2025-12-06,10,No,Male
+1515,C161,2025-12-15,P137,2,12.2,Shipped,"592 Main St, City4",City11,UK,Credit Card,15.65,Electronics,SR15,North,2025-12-21,10,No,Male
+1516,C027,2025-12-22,P103,9,9.0,Returned,"456 Main St, City1",City8,France,Gift Card,4.66,Toys,SR20,North,2025-12-31,7,No,Female
+1517,C159,2025-12-20,P106,6,66.48,Shipped,"800 Main St, City4",City2,UK,PayPal,2.16,Electronics,SR20,North,2025-12-14,10,Yes,Other
+1518,C131,2025-12-09,P122,7,50.2,Returned,"708 Main St, City3",City4,India,Credit Card,1.21,Books,SR19,West,2026-01-03,6,No,Other
+1519,C139,2025-12-25,P109,3,49.06,Cancelled,"605 Main St, City1",City12,USA,PayPal,1.15,Toys,SR18,North,2025-12-29,6,Yes,Male
+1520,C164,2025-12-30,P112,2,36.78,Returned,"820 Main St, City8",City18,Germany,Cash,17.04,Toys,SR11,East,2025-12-28,6,Yes,Male
+1521,C117,2025-12-29,P102,8,25.05,Shipped,"123 Main St, City14",City14,Canada,PayPal,9.33,Clothing,SR08,West,2025-12-23,7,Yes,Female
+1522,C048,2025-12-27,P100,6,4.94,Cancelled,"544 Main St, City17",City18,USA,PayPal,5.81,Clothing,SR19,East,2025-12-04,1,Yes,Male
+1523,C073,2025-12-06,P114,5,73.0,Cancelled,"724 Main St, City13",City4,India,PayPal,0.43,Books,SR04,North,2025-12-10,7,Yes,Female
+1524,C054,2025-12-10,P129,4,39.48,Cancelled,"696 Main St, City5",City10,France,Gift Card,17.57,Electronics,SR04,South,2025-12-10,4,Yes,Other
+1525,C097,2025-12-23,P123,6,61.55,Pending,"150 Main St, City2",City5,France,PayPal,17.09,Books,SR05,East,2025-12-17,1,No,Male
+1526,C131,2025-12-31,P137,8,24.08,Shipped,"808 Main St, City9",City3,France,Credit Card,3.35,Home,SR17,East,2026-01-02,9,No,Male
+1527,C083,2025-12-23,P123,9,70.66,Returned,"481 Main St, City16",City10,France,Gift Card,12.76,Toys,SR02,South,2025-12-16,4,No,Male
+1528,C102,2025-12-07,P119,7,89.31,Pending,"801 Main St, City20",City11,France,Credit Card,2.69,Electronics,SR10,West,2026-01-04,6,Yes,Other
+1529,C011,2025-12-15,P132,10,36.28,Returned,"330 Main St, City5",City18,Germany,Cash,16.09,Books,SR09,West,2025-12-03,3,No,Male
+1530,C068,2025-12-21,P104,6,90.53,Cancelled,"989 Main St, City8",City12,France,Credit Card,15.72,Clothing,SR04,North,2025-12-06,6,Yes,Other
+1531,C052,2025-12-11,P112,6,27.99,Cancelled,"512 Main St, City15",City10,France,PayPal,19.97,Sports,SR18,East,2025-12-02,5,No,Female
+1532,C104,2025-12-31,P125,10,76.74,Shipped,"808 Main St, City9",City3,France,PayPal,17.31,Clothing,SR08,South,2026-01-01,4,No,Other
+1533,C119,2025-12-11,P105,6,85.19,Returned,"477 Main St, City3",City10,Germany,PayPal,8.77,Toys,SR01,East,2025-12-10,10,Yes,Female
+1534,C189,2025-12-01,P131,6,36.61,Returned,"875 Main St, City2",City7,Australia,Gift Card,15.26,Sports,SR18,East,2025-12-22,10,Yes,Other
+1535,C009,2025-12-30,P108,3,97.81,Cancelled,"542 Main St, City17",City3,Australia,Gift Card,19.6,Clothing,SR13,North,2026-01-05,7,Yes,Female
+1536,C028,2025-12-11,P136,8,65.33,Cancelled,"749 Main St, City19",City10,USA,PayPal,0.64,Sports,SR20,West,2025-12-03,3,Yes,Male
+1537,C099,2025-12-10,P113,4,31.94,Shipped,"800 Main St, City4",City8,UK,Credit Card,3.44,Home,SR13,South,2025-12-09,3,No,Female
+1538,C191,2025-12-03,P124,4,16.46,Pending,"718 Main St, City3",City18,Australia,Gift Card,3.18,Toys,SR10,South,2026-01-03,8,No,Male
+1539,C002,2025-12-05,P128,2,83.15,Pending,"170 Main St, City9",City14,France,Gift Card,9.2,Toys,SR02,North,2025-12-20,8,No,Other
+1540,C183,2025-12-26,P119,7,62.84,Pending,"190 Main St, City20",City5,India,Gift Card,9.16,Sports,SR06,North,2025-12-27,1,Yes,Male
+1541,C071,2025-12-29,P140,9,32.01,Shipped,"595 Main St, City16",City17,Canada,PayPal,18.17,Home,SR18,North,2025-12-25,2,Yes,Other
+1542,C197,2025-12-25,P120,7,47.28,Cancelled,"644 Main St, City16",City15,USA,Gift Card,0.53,Sports,SR15,West,2025-12-23,7,Yes,Female
+1543,C010,2025-12-01,P116,2,72.06,Pending,"118 Main St, City10",City12,Canada,Gift Card,9.7,Electronics,SR03,South,2025-12-30,3,No,Female
+1544,C042,2025-12-06,P101,10,13.64,Cancelled,"351 Main St, City10",City10,Canada,Gift Card,3.37,Sports,SR01,East,2025-12-11,8,No,Male
+1545,C056,2025-12-23,P102,9,24.74,Shipped,"272 Main St, City17",City9,Canada,Credit Card,7.81,Books,SR15,North,2025-12-02,1,No,Male
+1546,C064,2025-12-12,P115,4,12.76,Returned,"544 Main St, City17",City10,UK,PayPal,13.6,Electronics,SR08,North,2025-12-12,3,Yes,Female
+1547,C132,2025-12-04,P120,6,57.95,Pending,"461 Main St, City10",City12,France,Gift Card,18.78,Electronics,SR08,South,2025-12-08,6,No,Male
+1548,C004,2025-12-13,P141,6,5.14,Pending,"800 Main St, City1",City13,USA,Cash,13.0,Books,SR02,North,2025-12-15,7,No,Other
+1549,C128,2025-12-04,P145,9,79.95,Pending,"399 Main St, City4",City8,France,Cash,19.63,Sports,SR13,South,2025-12-23,3,No,Other
+1550,C124,2025-12-03,P121,1,62.41,Returned,"531 Main St, City6",City9,Canada,PayPal,10.07,Sports,SR01,South,2025-12-03,10,Yes,Female
+1551,C061,2025-12-24,P127,4,63.49,Shipped,"754 Main St, City5",City13,Germany,Cash,4.04,Home,SR07,North,2025-12-17,10,No,Other
+1552,C085,2025-12-05,P117,6,65.78,Shipped,"932 Main St, City16",City3,Canada,Cash,15.01,Clothing,SR11,East,2025-12-17,4,Yes,Other
+1553,C064,2025-12-26,P143,4,62.36,Returned,"932 Main St, City16",City9,India,Gift Card,12.6,Electronics,SR16,North,2025-12-14,1,Yes,Male
+1554,C033,2025-12-03,P111,10,56.68,Pending,"885 Main St, City5",City15,USA,Gift Card,14.5,Books,SR06,South,2025-12-17,7,Yes,Other
+1555,C064,2025-12-10,P118,10,47.02,Pending,"840 Main St, City2",City9,USA,Cash,7.96,Clothing,SR16,West,2025-12-29,9,No,Male
+1556,C124,2025-12-01,P148,7,45.02,Shipped,"602 Main St, City13",City10,France,PayPal,11.06,Clothing,SR09,West,2025-12-31,5,No,Female
+1557,C097,2025-12-18,P138,8,10.9,Pending,"452 Main St, City6",City9,India,PayPal,18.32,Electronics,SR01,East,2026-01-02,7,No,Female
+1558,C191,2025-12-12,P124,8,33.54,Shipped,"724 Main St, City8",City13,USA,Gift Card,18.64,Clothing,SR07,West,2025-12-18,6,No,Other
+1559,C177,2025-12-12,P144,1,66.48,Returned,"418 Main St, City8",City5,India,Gift Card,0.69,Books,SR01,South,2025-12-18,10,No,Other
+1560,C038,2025-12-09,P115,10,59.51,Pending,"234 Main St, City17",City4,Australia,Credit Card,12.89,Home,SR13,North,2026-01-04,4,No,Male
+1561,C110,2025-12-09,P144,5,52.05,Returned,"211 Main St, City10",City20,Canada,Gift Card,15.05,Sports,SR03,North,2025-12-24,3,No,Other
+1562,C054,2025-12-30,P147,7,71.09,Shipped,"241 Main St, City19",City10,USA,Credit Card,1.4,Sports,SR14,West,2025-12-20,7,Yes,Male
+1563,C096,2025-12-06,P145,3,23.0,Pending,"989 Main St, City8",City10,Germany,PayPal,3.71,Electronics,SR06,South,2025-12-18,7,No,Other
+1564,C160,2025-12-04,P140,3,11.65,Shipped,"235 Main St, City4",City13,UK,Credit Card,6.84,Toys,SR08,West,2026-01-02,2,Yes,Male
+1565,C069,2025-12-25,P100,10,79.75,Shipped,"318 Main St, City8",City7,France,Credit Card,7.51,Toys,SR09,West,2026-01-01,6,No,Female
+1566,C095,2025-12-22,P121,6,82.41,Cancelled,"224 Main St, City11",City5,Germany,Credit Card,19.51,Books,SR04,North,2025-12-31,7,Yes,Male
+1567,C155,2025-12-04,P133,5,95.29,Pending,"311 Main St, City9",City19,France,Gift Card,10.3,Sports,SR07,North,2025-12-22,1,No,Male
+1568,C189,2025-12-11,P143,8,26.41,Returned,"456 Main St, City1",City3,France,Credit Card,6.97,Home,SR04,West,2025-12-20,10,Yes,Other
+1569,C037,2025-12-28,P133,10,79.34,Shipped,"290 Main St, City1",City7,Australia,Credit Card,6.03,Sports,SR18,West,2025-12-12,8,Yes,Female
+1570,C170,2025-12-18,P115,4,24.31,Shipped,"317 Main St, City5",City5,Canada,Credit Card,3.2,Books,SR13,East,2025-12-16,5,No,Other
+1571,C032,2025-12-22,P108,9,64.81,Returned,"749 Main St, City19",City18,UK,PayPal,18.64,Toys,SR03,East,2025-12-26,7,No,Male
+1572,C058,2025-12-09,P107,5,12.41,Shipped,"348 Main St, City7",City3,France,PayPal,14.89,Electronics,SR19,East,2025-12-10,6,No,Other
+1573,C189,2025-12-01,P119,1,60.64,Pending,"225 Main St, City1",City10,UK,Cash,15.95,Clothing,SR17,South,2025-12-08,7,Yes,Other
+1574,C118,2025-12-11,P109,5,84.36,Returned,"216 Main St, City1",City19,India,Cash,2.92,Sports,SR02,East,2025-12-21,9,Yes,Female
+1575,C181,2025-12-19,P130,4,51.51,Returned,"311 Main St, City18",City11,India,PayPal,16.96,Clothing,SR02,South,2026-01-02,7,No,Other
+1576,C041,2025-12-01,P135,7,36.38,Returned,"462 Main St, City18",City2,Germany,Gift Card,1.44,Sports,SR10,East,2025-12-14,9,No,Male
+1577,C034,2025-12-11,P148,10,87.11,Shipped,"290 Main St, City17",City6,Germany,PayPal,11.54,Home,SR16,East,2025-12-11,4,Yes,Other
+1578,C051,2025-12-24,P141,1,38.76,Shipped,"909 Main St, City20",City15,Germany,Gift Card,13.59,Clothing,SR02,North,2025-12-24,8,Yes,Male
+1579,C031,2025-12-17,P141,6,60.96,Pending,"519 Main St, City16",City18,Germany,PayPal,0.68,Clothing,SR13,West,2025-12-21,10,Yes,Other
+1580,C191,2025-12-13,P149,2,78.65,Returned,"179 Main St, City12",City3,Canada,Gift Card,7.35,Electronics,SR04,North,2025-12-09,8,Yes,Male
+1581,C151,2025-12-19,P136,8,30.27,Shipped,"459 Main St, City11",City8,Germany,Gift Card,20.0,Sports,SR14,East,2025-12-10,2,No,Male
+1582,C183,2025-12-30,P134,3,42.9,Shipped,"260 Main St, City14",City18,Australia,Gift Card,1.28,Toys,SR18,North,2025-12-15,2,Yes,Other
+1583,C178,2025-12-06,P100,9,46.92,Cancelled,"351 Main St, City10",City16,India,PayPal,13.05,Electronics,SR18,East,2025-12-04,2,Yes,Other
+1584,C077,2025-12-12,P134,3,44.6,Shipped,"569 Main St, City3",City10,USA,Cash,13.18,Home,SR05,West,2025-12-22,9,No,Other
+1585,C138,2025-12-17,P113,2,67.6,Shipped,"885 Main St, City5",City13,India,PayPal,5.99,Clothing,SR05,South,2025-12-24,5,Yes,Other
+1586,C160,2025-12-14,P104,9,28.47,Returned,"767 Main St, City20",City2,Germany,Gift Card,1.67,Books,SR14,South,2026-01-05,4,Yes,Other
+1587,C188,2025-12-09,P140,4,72.58,Pending,"889 Main St, City1",City12,UK,Gift Card,7.58,Toys,SR08,North,2025-12-19,2,Yes,Other
+1588,C141,2025-12-14,P104,6,65.45,Cancelled,"512 Main St, City20",City18,UK,PayPal,17.38,Clothing,SR09,North,2025-12-08,7,Yes,Female
+1589,C027,2025-12-26,P107,3,54.53,Cancelled,"211 Main St, City10",City10,USA,Cash,14.01,Books,SR18,East,2025-12-08,1,Yes,Female
+1590,C193,2025-12-13,P111,6,81.37,Returned,"153 Main St, City18",City11,India,Cash,0.19,Toys,SR05,South,2025-12-11,7,No,Male
+1591,C186,2025-12-21,P123,4,69.1,Returned,"642 Main St, City6",City5,India,Gift Card,19.72,Home,SR17,East,2025-12-19,7,Yes,Female
+1592,C163,2025-12-28,P105,5,43.02,Cancelled,"749 Main St, City19",City14,USA,Credit Card,14.6,Electronics,SR06,North,2025-12-07,5,No,Male
+1593,C109,2025-12-22,P132,3,50.04,Shipped,"588 Main St, City1",City10,France,PayPal,18.22,Sports,SR01,West,2026-01-05,6,Yes,Other
+1594,C170,2025-12-31,P133,10,8.06,Returned,"241 Main St, City19",City17,Australia,PayPal,3.5,Books,SR05,East,2025-12-05,7,No,Female
+1595,C044,2025-12-12,P107,6,91.74,Pending,"961 Main St, City2",City15,Australia,Credit Card,5.8,Home,SR10,East,2025-12-15,1,No,Male
+1596,C079,2025-12-30,P141,9,83.26,Shipped,"485 Main St, City4",City15,Australia,Gift Card,1.15,Electronics,SR20,West,2025-12-23,5,No,Male
+1597,C002,2025-12-12,P146,3,42.59,Shipped,"315 Main St, City9",City18,Germany,PayPal,1.69,Toys,SR05,West,2025-12-09,8,Yes,Male
+1598,C197,2025-12-22,P116,4,49.18,Cancelled,"372 Main St, City15",City10,Germany,PayPal,10.73,Books,SR04,West,2025-12-30,3,Yes,Female
+1599,C192,2025-12-14,P100,6,88.81,Pending,"280 Main St, City6",City18,UK,Credit Card,2.67,Home,SR11,North,2025-12-12,4,No,Other
+1600,C069,2025-12-04,P126,8,56.8,Pending,"118 Main St, City10",City17,Australia,Gift Card,10.04,Sports,SR13,South,2025-12-09,2,Yes,Male
+1601,C040,2025-12-12,P132,1,77.66,Pending,"819 Main St, City19",City3,Australia,Cash,8.59,Toys,SR01,West,2026-01-01,5,No,Female
+1602,C022,2025-12-25,P127,4,63.28,Pending,"569 Main St, City3",City10,Australia,Credit Card,17.28,Sports,SR08,West,2025-12-14,8,Yes,Other
+1603,C187,2025-12-17,P139,3,22.1,Pending,"450 Main St, City13",City7,India,Gift Card,0.77,Clothing,SR05,West,2025-12-03,10,Yes,Male
+1604,C014,2025-12-13,P126,9,33.41,Pending,"952 Main St, City17",City8,Germany,Gift Card,1.23,Home,SR02,East,2025-12-09,5,No,Female
+1605,C090,2025-12-23,P126,4,34.69,Shipped,"947 Main St, City6",City16,USA,Credit Card,13.21,Books,SR07,East,2026-01-01,5,Yes,Female
+1606,C048,2025-12-09,P131,6,36.08,Shipped,"318 Main St, City8",City12,USA,PayPal,6.62,Sports,SR12,East,2025-12-17,5,Yes,Other
+1607,C099,2025-12-03,P106,3,64.43,Shipped,"458 Main St, City16",City1,Canada,PayPal,3.86,Home,SR04,North,2026-01-05,10,No,Female
+1608,C186,2025-12-16,P148,4,55.21,Pending,"150 Main St, City2",City14,India,Gift Card,11.01,Books,SR18,East,2025-12-25,8,Yes,Female
+1609,C018,2025-12-16,P126,9,93.4,Shipped,"584 Main St, City2",City16,UK,PayPal,5.79,Toys,SR02,South,2025-12-27,8,Yes,Male
+1610,C113,2025-12-25,P132,7,57.99,Returned,"456 Main St, City1",City11,UK,PayPal,3.68,Clothing,SR19,South,2025-12-02,9,No,Other
+1611,C182,2025-12-24,P133,5,33.12,Pending,"713 Main St, City13",City12,UK,Credit Card,3.42,Electronics,SR18,South,2025-12-20,1,Yes,Female
+1612,C035,2025-12-09,P103,4,98.99,Pending,"211 Main St, City4",City4,USA,Cash,12.65,Books,SR11,North,2025-12-18,3,No,Other
+1613,C076,2025-12-11,P103,1,83.09,Pending,"951 Main St, City19",City10,India,Cash,19.43,Toys,SR19,North,2025-12-26,5,Yes,Female
+1614,C057,2025-12-11,P117,4,59.83,Returned,"894 Main St, City13",City20,India,Gift Card,7.37,Home,SR03,West,2025-12-13,8,Yes,Male
+1615,C049,2025-12-19,P131,3,66.16,Shipped,"718 Main St, City3",City2,India,Gift Card,13.75,Clothing,SR03,South,2025-12-06,7,Yes,Female
+1616,C166,2025-12-13,P106,9,17.17,Shipped,"972 Main St, City2",City7,Germany,Gift Card,0.41,Electronics,SR02,South,2025-12-17,2,No,Male
+1617,C161,2025-12-20,P100,1,95.92,Shipped,"961 Main St, City2",City13,Australia,Cash,17.05,Electronics,SR07,South,2026-01-01,10,No,Male
+1618,C079,2025-12-11,P130,3,27.4,Cancelled,"519 Main St, City16",City8,USA,Credit Card,16.5,Electronics,SR18,East,2025-12-08,9,No,Male
+1619,C001,2025-12-30,P114,1,25.75,Returned,"546 Main St, City6",City14,Canada,Cash,4.52,Sports,SR13,North,2026-01-02,3,Yes,Male
+1620,C027,2025-12-31,P118,6,11.31,Cancelled,"938 Main St, City19",City5,USA,Credit Card,12.09,Clothing,SR14,East,2025-12-13,7,Yes,Other
+1621,C176,2025-12-10,P139,5,37.44,Shipped,"840 Main St, City2",City7,Canada,Cash,18.66,Sports,SR03,North,2025-12-11,3,No,Male
+1622,C100,2025-12-15,P146,8,82.2,Shipped,"320 Main St, City17",City19,Canada,Cash,2.89,Books,SR05,South,2025-12-26,6,No,Female
+1623,C109,2025-12-16,P144,7,61.76,Cancelled,"754 Main St, City5",City3,India,Gift Card,8.37,Home,SR18,West,2026-01-05,9,Yes,Female
+1624,C022,2025-12-19,P145,7,54.58,Pending,"761 Main St, City4",City13,India,Cash,0.06,Electronics,SR12,West,2025-12-10,2,Yes,Female
+1625,C093,2025-12-28,P149,3,32.28,Pending,"724 Main St, City13",City2,India,PayPal,16.56,Electronics,SR05,North,2025-12-11,7,Yes,Other
+1626,C109,2025-12-12,P103,2,67.61,Shipped,"153 Main St, City18",City20,Australia,PayPal,0.6,Books,SR05,North,2025-12-17,2,Yes,Other
+1627,C107,2025-12-05,P148,3,49.09,Pending,"184 Main St, City16",City19,Canada,Cash,9.4,Sports,SR11,West,2025-12-02,5,Yes,Male
+1628,C016,2025-12-29,P141,1,61.99,Pending,"989 Main St, City8",City2,USA,Gift Card,16.65,Sports,SR15,East,2026-01-03,5,Yes,Female
+1629,C041,2025-12-09,P105,9,40.24,Pending,"778 Main St, City16",City7,Germany,Credit Card,4.38,Clothing,SR18,North,2025-12-31,8,No,Other
+1630,C165,2025-12-13,P124,3,9.24,Cancelled,"857 Main St, City18",City10,India,Cash,2.17,Electronics,SR12,East,2025-12-03,4,No,Male
+1631,C139,2025-12-04,P104,4,61.31,Cancelled,"512 Main St, City15",City5,India,Credit Card,4.81,Electronics,SR19,North,2026-01-01,1,Yes,Female
+1632,C024,2025-12-31,P119,1,98.12,Cancelled,"857 Main St, City6",City17,India,Cash,15.04,Sports,SR12,South,2025-12-08,6,No,Other
+1633,C129,2025-12-04,P132,3,6.26,Returned,"153 Main St, City18",City1,Australia,Credit Card,5.8,Clothing,SR15,North,2025-12-07,4,Yes,Other
+1634,C168,2025-12-05,P149,3,99.36,Cancelled,"800 Main St, City14",City11,UK,Cash,7.21,Home,SR02,West,2025-12-17,4,Yes,Male
+1635,C146,2025-12-21,P131,2,81.24,Pending,"155 Main St, City3",City18,France,Credit Card,9.98,Home,SR11,South,2025-12-20,3,Yes,Female
+1636,C148,2025-12-12,P122,2,10.82,Returned,"353 Main St, City15",City3,UK,Gift Card,13.01,Clothing,SR04,West,2025-12-04,6,No,Female
+1637,C105,2025-12-28,P139,3,46.31,Cancelled,"801 Main St, City20",City3,Canada,Gift Card,10.12,Books,SR02,North,2025-12-17,9,Yes,Male
+1638,C027,2025-12-10,P124,3,58.72,Shipped,"510 Main St, City3",City17,Australia,Gift Card,13.38,Books,SR15,West,2026-01-05,8,Yes,Male
+1639,C047,2025-12-24,P106,7,77.74,Pending,"456 Main St, City1",City14,USA,Cash,6.85,Toys,SR16,South,2026-01-01,2,No,Female
+1640,C010,2025-12-18,P109,8,17.96,Pending,"815 Main St, City20",City19,USA,Gift Card,1.25,Books,SR14,West,2025-12-15,1,Yes,Male
+1641,C195,2025-12-22,P127,5,28.19,Pending,"582 Main St, City15",City18,USA,Cash,8.1,Books,SR15,West,2026-01-04,4,No,Male
+1642,C014,2025-12-03,P127,6,96.47,Cancelled,"584 Main St, City2",City11,UK,Gift Card,9.63,Toys,SR06,West,2025-12-24,10,No,Male
+1643,C144,2025-12-26,P138,4,11.46,Pending,"192 Main St, City5",City16,Australia,Cash,0.28,Home,SR05,West,2025-12-22,2,No,Female
+1644,C134,2025-12-24,P100,8,94.55,Pending,"272 Main St, City17",City19,Canada,Credit Card,0.73,Sports,SR07,West,2026-01-05,3,No,Male
+1645,C090,2025-12-07,P112,10,95.68,Cancelled,"231 Main St, City15",City2,UK,Cash,10.04,Electronics,SR16,West,2025-12-28,7,No,Female
+1646,C139,2025-12-14,P133,6,14.87,Pending,"800 Main St, City1",City19,UK,PayPal,11.06,Clothing,SR18,West,2025-12-26,5,No,Other
+1647,C073,2025-12-23,P139,2,99.54,Shipped,"276 Main St, City13",City2,USA,Gift Card,2.07,Sports,SR20,North,2025-12-30,9,Yes,Other
+1648,C075,2025-12-28,P126,4,25.39,Returned,"724 Main St, City13",City6,USA,PayPal,17.13,Electronics,SR12,West,2025-12-28,7,Yes,Female
+1649,C058,2025-12-17,P118,5,88.43,Cancelled,"886 Main St, City3",City3,Canada,PayPal,0.08,Home,SR02,North,2025-12-03,3,No,Other
+1650,C190,2025-12-20,P120,6,20.35,Returned,"309 Main St, City5",City18,Germany,PayPal,12.33,Home,SR02,West,2025-12-10,7,Yes,Female
+1651,C082,2025-12-17,P110,7,26.16,Pending,"992 Main St, City9",City7,Canada,Gift Card,16.86,Sports,SR09,South,2025-12-22,4,Yes,Male
+1652,C007,2025-12-14,P100,10,18.68,Shipped,"765 Main St, City1",City6,USA,PayPal,19.67,Sports,SR12,South,2025-12-17,4,No,Male
+1653,C138,2025-12-27,P115,7,77.95,Shipped,"179 Main St, City12",City3,India,Credit Card,12.77,Toys,SR04,North,2025-12-31,10,Yes,Male
+1654,C037,2025-12-10,P116,3,12.9,Returned,"314 Main St, City11",City12,Germany,Credit Card,9.82,Electronics,SR14,North,2026-01-02,2,Yes,Other
+1655,C108,2025-12-13,P120,8,81.61,Pending,"372 Main St, City15",City17,India,Credit Card,2.34,Books,SR12,West,2026-01-05,1,Yes,Other
+1656,C190,2025-12-09,P107,4,62.18,Shipped,"221 Main St, City16",City12,Australia,PayPal,4.33,Books,SR04,South,2025-12-03,6,Yes,Male
+1657,C022,2025-12-24,P144,3,29.68,Returned,"303 Main St, City4",City6,UK,Cash,9.34,Home,SR14,West,2025-12-14,5,Yes,Male
+1658,C176,2025-12-28,P145,5,96.33,Shipped,"823 Main St, City17",City15,France,Cash,3.31,Clothing,SR16,West,2025-12-30,7,No,Female
+1659,C160,2025-12-04,P138,7,45.2,Cancelled,"801 Main St, City20",City3,Australia,Credit Card,8.99,Electronics,SR17,East,2025-12-28,5,No,Female
+1660,C008,2025-12-04,P111,6,45.21,Pending,"251 Main St, City3",City4,USA,PayPal,13.14,Books,SR05,East,2025-12-09,1,No,Other
+1661,C003,2025-12-23,P121,4,48.67,Cancelled,"518 Main St, City9",City2,USA,Gift Card,5.67,Clothing,SR17,South,2025-12-08,9,No,Other
+1662,C156,2025-12-31,P142,2,59.09,Returned,"216 Main St, City1",City2,Germany,Cash,16.27,Clothing,SR07,North,2026-01-02,8,Yes,Female
+1663,C108,2025-12-04,P107,8,20.42,Cancelled,"459 Main St, City11",City18,India,Credit Card,5.7,Sports,SR19,North,2025-12-31,5,Yes,Female
+1664,C010,2025-12-29,P134,9,7.75,Shipped,"393 Main St, City15",City9,USA,Gift Card,14.47,Books,SR11,East,2025-12-27,2,No,Female
+1665,C157,2025-12-02,P125,5,70.85,Returned,"754 Main St, City8",City10,USA,Cash,18.75,Electronics,SR01,South,2025-12-05,1,Yes,Male
+1666,C083,2025-12-28,P144,7,25.72,Shipped,"512 Main St, City15",City17,Australia,Cash,16.32,Toys,SR01,North,2025-12-18,1,Yes,Male
+1667,C078,2025-12-03,P116,6,70.03,Returned,"840 Main St, City2",City10,India,PayPal,11.67,Electronics,SR05,East,2025-12-11,10,No,Other
+1668,C115,2025-12-22,P107,9,54.64,Returned,"696 Main St, City5",City10,UK,Cash,15.45,Home,SR08,North,2025-12-18,5,Yes,Female
+1669,C143,2025-12-27,P115,4,70.71,Shipped,"754 Main St, City8",City20,India,Credit Card,13.41,Home,SR13,South,2026-01-02,2,No,Male
+1670,C152,2025-12-25,P133,9,86.4,Cancelled,"290 Main St, City17",City19,Canada,PayPal,16.96,Electronics,SR05,South,2025-12-25,7,No,Other
+1671,C132,2025-12-07,P149,7,22.03,Cancelled,"875 Main St, City2",City17,Canada,Cash,19.03,Toys,SR04,South,2025-12-31,2,Yes,Male
+1672,C005,2025-12-29,P129,3,29.6,Returned,"696 Main St, City5",City19,Germany,Cash,5.31,Toys,SR03,East,2025-12-29,4,Yes,Female
+1673,C129,2025-12-14,P132,6,9.09,Cancelled,"311 Main St, City9",City7,USA,Gift Card,14.64,Home,SR07,East,2025-12-14,7,Yes,Other
+1674,C071,2025-12-17,P138,8,53.78,Shipped,"216 Main St, City1",City13,Canada,PayPal,19.18,Clothing,SR04,North,2025-12-04,10,No,Male
+1675,C017,2025-12-18,P106,5,25.73,Returned,"260 Main St, City14",City18,USA,PayPal,14.68,Sports,SR09,West,2025-12-15,3,Yes,Female
+1676,C164,2025-12-10,P145,10,31.64,Shipped,"318 Main St, City8",City2,France,Gift Card,14.78,Sports,SR08,South,2025-12-22,2,Yes,Male
+1677,C086,2025-12-29,P129,3,96.37,Returned,"188 Main St, City8",City11,USA,PayPal,19.49,Electronics,SR06,North,2025-12-24,8,Yes,Female
+1678,C064,2025-12-16,P107,1,82.61,Cancelled,"450 Main St, City13",City10,France,PayPal,15.1,Electronics,SR04,East,2025-12-23,8,No,Other
+1679,C090,2025-12-18,P116,8,28.33,Returned,"234 Main St, City17",City14,UK,Cash,17.83,Sports,SR20,West,2025-12-09,5,Yes,Male
+1680,C106,2025-12-28,P114,3,38.28,Shipped,"364 Main St, City11",City1,Canada,Gift Card,7.19,Sports,SR03,South,2025-12-26,2,No,Other
+1681,C174,2025-12-18,P128,9,20.79,Cancelled,"685 Main St, City10",City18,France,Gift Card,18.91,Books,SR10,South,2025-12-04,10,No,Other
+1682,C032,2025-12-14,P129,10,96.93,Cancelled,"262 Main St, City5",City10,USA,Gift Card,18.54,Clothing,SR15,South,2026-01-04,5,Yes,Female
+1683,C125,2025-12-10,P104,5,5.49,Shipped,"996 Main St, City17",City5,Australia,Credit Card,1.06,Books,SR01,West,2025-12-24,1,Yes,Female
+1684,C036,2025-12-12,P118,9,67.86,Pending,"276 Main St, City13",City11,UK,PayPal,19.92,Clothing,SR14,North,2025-12-20,4,Yes,Female
+1685,C091,2025-12-08,P143,7,44.56,Shipped,"353 Main St, City15",City6,France,Cash,3.47,Home,SR11,South,2025-12-14,5,Yes,Female
+1686,C142,2025-12-07,P119,5,12.21,Returned,"458 Main St, City16",City8,Germany,Gift Card,1.92,Toys,SR15,East,2026-01-03,6,No,Female
+1687,C110,2025-12-15,P126,7,48.27,Shipped,"155 Main St, City3",City2,USA,PayPal,12.3,Books,SR08,East,2025-12-10,10,No,Male
+1688,C194,2025-12-28,P125,3,42.67,Shipped,"485 Main St, City4",City5,Australia,Gift Card,16.78,Electronics,SR02,East,2025-12-08,6,Yes,Female
+1689,C145,2025-12-16,P144,6,86.96,Shipped,"887 Main St, City7",City2,Canada,Credit Card,14.03,Toys,SR05,West,2025-12-10,4,Yes,Female
+1690,C161,2025-12-10,P146,1,81.33,Pending,"778 Main St, City5",City18,USA,PayPal,12.08,Electronics,SR17,North,2025-12-17,4,Yes,Female
+1691,C007,2025-12-27,P132,8,41.5,Shipped,"372 Main St, City15",City1,Germany,PayPal,16.41,Toys,SR09,West,2025-12-09,7,Yes,Other
+1692,C006,2025-12-06,P109,4,20.38,Pending,"481 Main St, City16",City8,UK,Cash,13.35,Toys,SR16,East,2025-12-19,7,No,Other
+1693,C028,2025-12-15,P126,7,18.21,Cancelled,"800 Main St, City1",City7,France,Gift Card,0.22,Books,SR02,West,2025-12-04,6,Yes,Female
+1694,C186,2025-12-15,P117,1,98.24,Cancelled,"989 Main St, City8",City17,India,Cash,18.05,Toys,SR13,North,2025-12-13,3,No,Other
+1695,C185,2025-12-19,P121,8,72.65,Pending,"991 Main St, City2",City5,Canada,Cash,18.47,Electronics,SR16,West,2026-01-01,10,Yes,Other
+1696,C182,2025-12-30,P132,9,28.88,Cancelled,"211 Main St, City10",City7,UK,Gift Card,1.35,Electronics,SR06,South,2025-12-08,2,No,Other
+1697,C122,2025-12-11,P148,4,98.2,Pending,"786 Main St, City6",City9,Canada,Gift Card,15.12,Home,SR03,North,2025-12-18,2,Yes,Other
+1698,C019,2025-12-15,P148,6,62.22,Shipped,"292 Main St, City17",City9,USA,Gift Card,7.55,Sports,SR19,South,2025-12-14,5,No,Female
+1699,C174,2025-12-10,P114,4,75.24,Returned,"192 Main St, City6",City4,USA,Credit Card,12.58,Sports,SR04,South,2025-12-04,3,Yes,Female
+1700,C199,2025-12-14,P136,9,86.98,Cancelled,"708 Main St, City3",City9,Canada,Gift Card,3.8,Clothing,SR19,West,2026-01-03,6,No,Other
+1701,C144,2025-12-28,P108,2,46.12,Returned,"132 Main St, City19",City19,USA,PayPal,15.65,Books,SR04,North,2026-01-02,4,Yes,Other
+1702,C139,2025-12-11,P101,4,82.84,Cancelled,"399 Main St, City4",City17,Canada,Cash,1.36,Clothing,SR10,North,2026-01-05,10,Yes,Other
+1703,C157,2025-12-17,P119,7,63.38,Shipped,"823 Main St, City17",City9,UK,Credit Card,0.65,Home,SR09,South,2025-12-23,1,Yes,Male
+1704,C141,2025-12-27,P146,6,92.71,Shipped,"885 Main St, City5",City4,USA,Credit Card,6.92,Electronics,SR14,North,2026-01-01,3,No,Other
+1705,C011,2025-12-04,P102,8,52.72,Cancelled,"238 Main St, City14",City8,UK,PayPal,0.43,Electronics,SR01,South,2026-01-05,10,No,Other
+1706,C176,2025-12-24,P101,9,50.28,Returned,"155 Main St, City3",City11,Canada,PayPal,8.59,Home,SR18,South,2025-12-09,8,Yes,Other
+1707,C095,2025-12-12,P112,6,45.9,Shipped,"885 Main St, City5",City20,USA,Credit Card,4.54,Sports,SR18,North,2025-12-02,4,Yes,Male
+1708,C015,2025-12-05,P128,3,31.12,Cancelled,"462 Main St, City18",City15,Canada,PayPal,19.96,Clothing,SR20,West,2026-01-01,2,Yes,Male
+1709,C065,2025-12-31,P134,4,51.5,Cancelled,"952 Main St, City17",City13,Canada,Cash,18.83,Toys,SR10,South,2026-01-04,5,No,Other
+1710,C139,2025-12-17,P106,1,37.27,Returned,"642 Main St, City6",City13,Germany,Cash,1.57,Clothing,SR17,South,2025-12-21,9,Yes,Male
+1711,C096,2025-12-24,P109,1,97.87,Returned,"767 Main St, City20",City5,Germany,Credit Card,0.43,Electronics,SR09,East,2025-12-26,5,Yes,Male
+1712,C072,2025-12-28,P139,7,51.54,Returned,"347 Main St, City12",City13,USA,PayPal,4.11,Clothing,SR14,North,2025-12-21,1,No,Male
+1713,C156,2025-12-25,P121,5,81.77,Pending,"472 Main St, City10",City3,UK,Gift Card,17.31,Sports,SR02,North,2025-12-26,5,No,Female
+1714,C147,2025-12-24,P136,9,28.96,Returned,"330 Main St, City5",City19,India,PayPal,18.15,Books,SR09,North,2025-12-17,9,No,Female
+1715,C147,2025-12-13,P102,10,30.32,Cancelled,"530 Main St, City17",City5,Australia,Credit Card,2.49,Toys,SR11,East,2025-12-13,8,No,Male
+1716,C113,2025-12-01,P129,1,96.72,Returned,"123 Main St, City14",City18,India,Gift Card,1.17,Electronics,SR09,East,2025-12-06,8,Yes,Female
+1717,C197,2025-12-26,P117,5,87.42,Pending,"450 Main St, City13",City3,India,PayPal,17.42,Sports,SR02,South,2025-12-09,1,Yes,Other
+1718,C130,2025-12-28,P128,10,34.45,Pending,"311 Main St, City18",City11,UK,Cash,0.32,Books,SR18,North,2025-12-17,6,Yes,Male
+1719,C130,2025-12-15,P107,9,11.43,Pending,"118 Main St, City10",City13,UK,Gift Card,1.43,Home,SR10,South,2025-12-03,6,No,Female
+1720,C105,2025-12-29,P141,6,49.18,Cancelled,"461 Main St, City10",City3,India,Cash,0.89,Clothing,SR19,North,2025-12-08,10,Yes,Female
+1721,C131,2025-12-23,P149,9,79.2,Cancelled,"996 Main St, City17",City11,Australia,Credit Card,13.14,Clothing,SR13,North,2025-12-06,4,No,Other
+1722,C188,2025-12-04,P133,1,62.27,Returned,"815 Main St, City20",City10,India,Cash,18.22,Books,SR08,East,2025-12-16,8,No,Other
+1723,C030,2025-12-23,P115,8,74.34,Returned,"314 Main St, City11",City4,UK,Credit Card,18.29,Sports,SR16,South,2025-12-30,7,Yes,Other
+1724,C033,2025-12-30,P134,4,78.53,Returned,"816 Main St, City9",City2,Canada,PayPal,12.11,Books,SR11,East,2025-12-09,2,No,Female
+1725,C130,2025-12-05,P136,8,64.72,Pending,"947 Main St, City6",City19,USA,PayPal,2.42,Books,SR18,West,2025-12-08,3,Yes,Female
+1726,C007,2025-12-23,P110,2,16.7,Returned,"875 Main St, City2",City14,India,Gift Card,13.94,Clothing,SR10,North,2025-12-23,6,Yes,Other
+1727,C012,2025-12-03,P147,6,95.18,Returned,"421 Main St, City2",City19,Canada,Gift Card,5.79,Home,SR05,South,2026-01-03,2,Yes,Male
+1728,C152,2025-12-19,P123,8,40.41,Returned,"453 Main St, City8",City9,Canada,Cash,18.9,Electronics,SR08,East,2026-01-02,6,Yes,Other
+1729,C133,2025-12-29,P133,10,52.78,Returned,"262 Main St, City5",City9,Germany,Cash,15.15,Clothing,SR02,South,2025-12-29,9,No,Other
+1730,C158,2025-12-11,P106,6,31.33,Shipped,"262 Main St, City5",City6,Germany,Gift Card,4.47,Clothing,SR10,East,2025-12-08,4,No,Male
+1731,C025,2025-12-07,P135,9,76.46,Shipped,"837 Main St, City1",City16,France,PayPal,0.13,Electronics,SR12,South,2025-12-20,10,No,Other
+1732,C114,2025-12-17,P108,8,32.3,Shipped,"452 Main St, City6",City10,Australia,Credit Card,8.89,Home,SR16,East,2025-12-07,3,No,Other
+1733,C172,2025-12-04,P122,2,75.44,Pending,"356 Main St, City8",City12,UK,PayPal,10.14,Books,SR15,North,2025-12-22,1,No,Male
+1734,C181,2025-12-26,P133,6,22.27,Shipped,"272 Main St, City17",City18,USA,PayPal,2.74,Home,SR08,South,2025-12-18,8,Yes,Female
+1735,C048,2025-12-24,P131,5,16.64,Shipped,"221 Main St, City16",City17,Canada,PayPal,0.06,Electronics,SR16,South,2025-12-13,1,No,Other
+1736,C068,2025-12-20,P124,10,26.52,Cancelled,"341 Main St, City16",City19,Canada,PayPal,17.56,Clothing,SR10,West,2026-01-02,7,No,Other
+1737,C124,2025-12-10,P106,4,14.78,Cancelled,"889 Main St, City1",City20,UK,PayPal,13.25,Electronics,SR06,West,2025-12-22,2,No,Other
+1738,C102,2025-12-23,P108,8,84.64,Returned,"837 Main St, City1",City6,Canada,PayPal,0.58,Books,SR17,South,2025-12-28,1,No,Female
+1739,C173,2025-12-11,P126,7,81.66,Returned,"456 Main St, City1",City10,USA,Cash,9.71,Clothing,SR11,North,2025-12-21,8,No,Male
+1740,C147,2025-12-29,P110,9,23.79,Shipped,"432 Main St, City18",City10,UK,PayPal,12.1,Electronics,SR01,West,2025-12-07,6,No,Other
+1741,C017,2025-12-21,P103,9,24.19,Pending,"237 Main St, City4",City6,Germany,PayPal,5.8,Clothing,SR12,East,2025-12-28,4,Yes,Male
+1742,C010,2025-12-28,P101,9,13.83,Returned,"674 Main St, City16",City16,India,Cash,6.03,Clothing,SR08,North,2025-12-19,2,No,Other
+1743,C103,2025-12-05,P147,5,86.74,Shipped,"132 Main St, City19",City15,Canada,Gift Card,0.4,Sports,SR18,South,2025-12-08,10,No,Male
+1744,C156,2025-12-28,P119,6,44.8,Shipped,"975 Main St, City17",City6,Germany,PayPal,1.99,Sports,SR19,West,2025-12-26,5,No,Male
+1745,C057,2025-12-31,P126,9,30.73,Cancelled,"761 Main St, City4",City10,France,PayPal,7.65,Home,SR13,East,2026-01-05,2,No,Male
+1746,C148,2025-12-01,P125,4,46.91,Returned,"574 Main St, City5",City17,Canada,Cash,6.65,Sports,SR03,North,2025-12-12,4,No,Other
+1747,C064,2025-12-03,P109,7,63.17,Returned,"932 Main St, City16",City17,Australia,PayPal,1.18,Home,SR09,West,2025-12-21,6,Yes,Male
+1748,C083,2025-12-23,P136,10,43.02,Shipped,"553 Main St, City6",City8,India,Gift Card,10.91,Books,SR08,East,2025-12-31,8,Yes,Male
+1749,C109,2025-12-23,P104,7,16.21,Shipped,"918 Main St, City1",City9,Canada,Credit Card,3.32,Home,SR04,North,2025-12-29,8,Yes,Other
+1750,C135,2025-12-16,P108,9,44.13,Shipped,"713 Main St, City13",City7,Germany,Cash,14.4,Sports,SR09,East,2025-12-25,10,Yes,Male
+1751,C075,2025-12-17,P143,4,81.06,Cancelled,"221 Main St, City16",City15,UK,Gift Card,9.26,Books,SR05,South,2026-01-04,8,Yes,Female
+1752,C107,2025-12-06,P109,8,10.43,Shipped,"718 Main St, City3",City20,India,PayPal,13.88,Toys,SR15,East,2025-12-08,1,No,Other
+1753,C041,2025-12-03,P122,9,88.79,Cancelled,"519 Main St, City16",City10,India,Cash,5.68,Home,SR19,East,2025-12-25,10,No,Female
+1754,C144,2025-12-18,P141,4,11.43,Pending,"786 Main St, City6",City17,India,Cash,3.57,Toys,SR04,South,2026-01-04,10,No,Female
+1755,C148,2025-12-25,P137,10,30.6,Returned,"644 Main St, City16",City10,USA,PayPal,19.78,Electronics,SR20,South,2025-12-11,3,No,Male
+1756,C083,2025-12-03,P103,3,53.11,Returned,"875 Main St, City2",City16,Germany,Cash,6.05,Electronics,SR08,West,2025-12-26,7,No,Female
+1757,C080,2025-12-27,P133,6,54.94,Pending,"584 Main St, City2",City14,Australia,Cash,14.23,Home,SR18,West,2026-01-02,5,Yes,Other
+1758,C112,2025-12-21,P122,3,6.42,Cancelled,"330 Main St, City5",City2,Canada,Cash,14.57,Clothing,SR20,South,2025-12-26,6,Yes,Other
+1759,C003,2025-12-07,P128,6,54.49,Shipped,"211 Main St, City10",City18,UK,Credit Card,18.22,Books,SR17,North,2025-12-19,1,No,Other
+1760,C123,2025-12-13,P102,5,30.31,Shipped,"765 Main St, City1",City3,Australia,Gift Card,19.94,Sports,SR15,West,2025-12-13,8,Yes,Male
+1761,C095,2025-12-01,P139,3,71.73,Pending,"173 Main St, City6",City3,Germany,Credit Card,1.12,Sports,SR02,East,2025-12-08,9,No,Male
+1762,C168,2025-12-20,P147,1,35.93,Cancelled,"290 Main St, City17",City10,France,Cash,10.33,Sports,SR13,West,2025-12-05,2,Yes,Other
+1763,C038,2025-12-24,P117,2,20.56,Shipped,"179 Main St, City12",City11,India,Gift Card,3.46,Sports,SR01,East,2025-12-19,9,No,Male
+1764,C088,2025-12-15,P136,2,58.34,Returned,"276 Main St, City13",City4,USA,PayPal,14.59,Clothing,SR11,North,2025-12-12,1,Yes,Other
+1765,C096,2025-12-15,P105,4,33.54,Pending,"184 Main St, City16",City2,Canada,PayPal,6.21,Home,SR10,South,2025-12-19,3,No,Female
+1766,C058,2025-12-27,P112,5,88.81,Pending,"713 Main St, City13",City10,Canada,Gift Card,5.29,Home,SR12,East,2025-12-24,9,No,Other
+1767,C176,2025-12-27,P110,1,95.16,Returned,"894 Main St, City13",City6,France,PayPal,19.88,Home,SR12,East,2025-12-15,6,No,Male
+1768,C132,2025-12-25,P113,5,24.94,Cancelled,"592 Main St, City4",City4,France,PayPal,9.5,Home,SR19,East,2025-12-25,10,No,Other
+1769,C151,2025-12-29,P102,6,71.31,Cancelled,"108 Main St, City4",City20,Germany,Gift Card,6.69,Sports,SR04,South,2025-12-24,5,Yes,Female
+1770,C140,2025-12-06,P148,1,46.13,Returned,"459 Main St, City11",City1,Canada,Gift Card,14.62,Home,SR08,East,2025-12-25,10,No,Female
+1771,C174,2025-12-13,P119,1,97.18,Pending,"448 Main St, City13",City15,USA,Gift Card,8.52,Books,SR19,West,2025-12-03,3,Yes,Female
+1772,C153,2025-12-31,P144,9,23.04,Pending,"173 Main St, City6",City3,UK,Credit Card,19.41,Books,SR05,East,2025-12-31,7,Yes,Female
+1773,C001,2025-12-22,P109,4,88.75,Cancelled,"886 Main St, City3",City4,India,PayPal,17.16,Home,SR03,South,2025-12-11,9,No,Male
+1774,C123,2025-12-06,P122,2,49.19,Returned,"595 Main St, City16",City7,Germany,Gift Card,16.63,Sports,SR08,North,2025-12-26,3,No,Male
+1775,C103,2025-12-25,P120,5,82.69,Returned,"979 Main St, City15",City18,France,Credit Card,6.94,Sports,SR19,North,2025-12-16,10,Yes,Male
+1776,C095,2025-12-12,P121,9,83.02,Returned,"771 Main St, City13",City1,India,PayPal,10.0,Electronics,SR07,East,2025-12-29,2,No,Female
+1777,C168,2025-12-06,P127,3,31.35,Returned,"816 Main St, City9",City9,USA,Cash,19.17,Home,SR06,South,2025-12-27,9,Yes,Female
+1778,C022,2025-12-12,P143,2,66.95,Returned,"234 Main St, City17",City2,UK,PayPal,11.49,Home,SR15,North,2026-01-02,7,No,Male
+1779,C078,2025-12-14,P116,2,61.94,Returned,"989 Main St, City8",City13,Australia,Gift Card,14.24,Toys,SR12,North,2025-12-13,7,No,Other
+1780,C021,2025-12-05,P100,6,95.02,Cancelled,"989 Main St, City8",City12,Australia,Gift Card,8.7,Home,SR10,North,2025-12-09,8,No,Female
+1781,C013,2025-12-29,P138,6,28.21,Cancelled,"816 Main St, City9",City20,Australia,Credit Card,10.85,Clothing,SR10,East,2025-12-28,1,No,Female
+1782,C077,2025-12-21,P102,10,14.71,Shipped,"211 Main St, City4",City3,Germany,PayPal,3.5,Toys,SR04,South,2025-12-11,8,No,Female
+1783,C089,2025-12-15,P144,10,27.42,Returned,"458 Main St, City16",City12,UK,Cash,0.77,Toys,SR04,West,2026-01-03,2,No,Other
+1784,C192,2025-12-10,P127,7,6.14,Cancelled,"323 Main St, City14",City3,Canada,Credit Card,16.74,Home,SR04,South,2025-12-18,5,Yes,Other
+1785,C013,2025-12-12,P136,8,24.65,Returned,"179 Main St, City12",City19,Canada,PayPal,5.54,Sports,SR02,West,2025-12-13,5,No,Male
+1786,C105,2025-12-07,P101,7,67.08,Cancelled,"553 Main St, City6",City19,France,Cash,1.94,Clothing,SR01,East,2025-12-16,2,No,Other
+1787,C183,2025-12-20,P129,10,44.38,Cancelled,"961 Main St, City2",City17,Germany,Credit Card,6.86,Books,SR12,West,2025-12-11,8,No,Male
+1788,C137,2025-12-23,P110,7,28.54,Shipped,"696 Main St, City5",City13,USA,Gift Card,11.23,Books,SR03,South,2026-01-04,6,No,Female
+1789,C193,2025-12-11,P128,8,6.83,Pending,"461 Main St, City10",City14,France,Gift Card,8.31,Electronics,SR10,West,2025-12-17,7,Yes,Female
+1790,C156,2025-12-31,P107,2,41.98,Pending,"280 Main St, City6",City13,UK,PayPal,17.3,Sports,SR13,West,2025-12-24,4,No,Other
+1791,C072,2025-12-11,P149,6,64.5,Cancelled,"989 Main St, City8",City6,France,Gift Card,4.5,Home,SR16,West,2025-12-20,8,Yes,Male
+1792,C103,2025-12-10,P100,9,83.66,Returned,"369 Main St, City20",City9,Canada,Credit Card,7.67,Sports,SR14,West,2025-12-28,4,Yes,Other
+1793,C058,2025-12-05,P139,10,52.31,Shipped,"837 Main St, City1",City13,Canada,Gift Card,18.91,Books,SR20,South,2025-12-12,10,No,Other
+1794,C024,2025-12-31,P123,1,75.31,Returned,"724 Main St, City13",City9,Australia,PayPal,17.01,Clothing,SR15,East,2025-12-17,3,No,Other
+1795,C052,2025-12-11,P108,5,10.21,Shipped,"372 Main St, City18",City1,Germany,Gift Card,4.9,Toys,SR15,South,2025-12-13,8,Yes,Other
+1796,C085,2025-12-28,P110,4,48.36,Shipped,"713 Main St, City5",City19,USA,Gift Card,17.34,Home,SR13,North,2025-12-28,5,Yes,Other
+1797,C199,2025-12-20,P141,9,72.61,Returned,"341 Main St, City16",City17,USA,Cash,16.23,Sports,SR02,East,2025-12-27,9,No,Female
+1798,C032,2025-12-04,P109,5,76.75,Shipped,"323 Main St, City14",City10,UK,Gift Card,13.13,Clothing,SR08,West,2025-12-15,5,Yes,Female
+1799,C165,2025-12-23,P104,8,90.31,Returned,"709 Main St, City18",City4,Australia,Cash,6.85,Sports,SR15,East,2025-12-30,5,No,Other
+1800,C010,2025-12-25,P108,3,54.08,Shipped,"952 Main St, City17",City12,France,Cash,14.28,Books,SR06,East,2026-01-01,8,No,Male
+1801,C191,2025-12-26,P144,3,18.06,Cancelled,"347 Main St, City12",City11,Canada,PayPal,0.56,Clothing,SR19,East,2025-12-11,10,Yes,Female
+1802,C094,2025-12-24,P132,9,42.95,Pending,"254 Main St, City20",City10,India,Cash,10.47,Home,SR16,South,2026-01-04,8,Yes,Female
+1803,C098,2025-12-01,P142,2,36.86,Cancelled,"372 Main St, City18",City14,India,Cash,12.17,Sports,SR04,South,2025-12-24,8,No,Other
+1804,C164,2025-12-30,P100,9,90.21,Pending,"231 Main St, City15",City16,USA,Gift Card,12.53,Books,SR17,North,2025-12-19,9,Yes,Male
+1805,C115,2025-12-19,P133,4,27.48,Pending,"658 Main St, City4",City2,Australia,PayPal,4.57,Sports,SR15,South,2025-12-04,10,No,Other
+1806,C072,2025-12-03,P147,4,74.39,Shipped,"173 Main St, City6",City9,UK,Credit Card,4.15,Clothing,SR19,West,2025-12-31,2,Yes,Female
+1807,C163,2025-12-03,P112,8,15.17,Shipped,"481 Main St, City16",City11,USA,PayPal,11.97,Books,SR19,North,2025-12-29,2,No,Other
+1808,C050,2025-12-19,P140,10,76.52,Shipped,"399 Main St, City4",City2,Germany,Cash,9.85,Clothing,SR11,West,2026-01-03,5,No,Female
+1809,C137,2025-12-08,P121,5,69.06,Cancelled,"519 Main St, City16",City7,USA,PayPal,9.75,Books,SR17,West,2026-01-02,3,Yes,Male
+1810,C195,2025-12-14,P143,5,13.07,Returned,"348 Main St, City7",City19,Canada,PayPal,3.87,Electronics,SR08,South,2025-12-21,9,No,Female
+1811,C197,2025-12-17,P130,2,69.73,Pending,"765 Main St, City1",City17,India,Cash,3.13,Home,SR06,South,2025-12-12,6,No,Other
+1812,C153,2025-12-26,P126,5,25.95,Cancelled,"808 Main St, City9",City6,UK,PayPal,6.12,Sports,SR12,East,2025-12-30,5,No,Other
+1813,C101,2025-12-25,P126,1,77.16,Returned,"765 Main St, City4",City15,UK,PayPal,19.5,Books,SR01,South,2025-12-15,5,No,Female
+1814,C007,2025-12-11,P127,7,35.26,Pending,"996 Main St, City17",City15,France,Gift Card,17.13,Electronics,SR03,South,2025-12-12,6,No,Other
+1815,C152,2025-12-16,P102,7,70.02,Returned,"569 Main St, City3",City10,France,Gift Card,1.19,Electronics,SR11,East,2026-01-05,6,No,Female
+1816,C029,2025-12-16,P108,2,35.15,Returned,"817 Main St, City7",City15,France,Cash,11.48,Toys,SR03,West,2025-12-17,6,No,Other
+1817,C136,2025-12-27,P118,1,17.47,Shipped,"761 Main St, City4",City11,Canada,Cash,19.14,Books,SR15,South,2025-12-13,6,No,Male
+1818,C118,2025-12-12,P121,4,69.05,Cancelled,"821 Main St, City3",City15,Canada,Credit Card,2.81,Sports,SR14,West,2025-12-27,8,Yes,Other
+1819,C016,2025-12-30,P132,6,5.55,Returned,"592 Main St, City4",City15,Australia,Cash,15.8,Home,SR10,East,2025-12-06,2,Yes,Other
+1820,C200,2025-12-04,P134,3,80.65,Shipped,"765 Main St, City1",City2,France,PayPal,15.04,Sports,SR14,East,2025-12-31,8,Yes,Other
+1821,C085,2025-12-03,P111,10,36.61,Returned,"951 Main St, City17",City5,France,Cash,0.13,Home,SR01,North,2025-12-16,6,No,Male
+1822,C067,2025-12-28,P114,10,68.75,Cancelled,"211 Main St, City4",City5,Canada,PayPal,15.4,Toys,SR12,South,2025-12-14,3,Yes,Female
+1823,C047,2025-12-04,P101,9,61.77,Shipped,"786 Main St, City11",City14,France,Cash,19.09,Books,SR11,South,2025-12-15,4,No,Male
+1824,C109,2025-12-09,P114,4,78.14,Shipped,"754 Main St, City5",City7,USA,Gift Card,0.51,Sports,SR07,West,2025-12-05,8,No,Female
+1825,C051,2025-12-07,P149,7,60.65,Shipped,"749 Main St, City19",City9,France,Credit Card,3.26,Clothing,SR04,West,2025-12-24,6,No,Male
+1826,C054,2025-12-03,P132,6,49.88,Shipped,"800 Main St, City4",City2,USA,Gift Card,16.07,Home,SR04,East,2025-12-25,5,Yes,Female
+1827,C167,2025-12-10,P114,2,66.43,Returned,"808 Main St, City9",City2,UK,Cash,0.91,Clothing,SR06,North,2025-12-10,9,Yes,Male
+1828,C178,2025-12-16,P148,1,9.86,Pending,"887 Main St, City7",City3,UK,Cash,12.35,Clothing,SR14,South,2025-12-13,9,Yes,Other
+1829,C172,2025-12-06,P123,2,79.5,Shipped,"588 Main St, City15",City7,UK,Gift Card,12.51,Books,SR20,East,2025-12-03,1,No,Male
+1830,C121,2025-12-02,P147,3,91.69,Shipped,"961 Main St, City2",City11,Australia,PayPal,3.16,Electronics,SR12,South,2025-12-07,7,Yes,Male
+1831,C122,2025-12-15,P126,9,46.27,Shipped,"718 Main St, City3",City3,Germany,Cash,2.56,Sports,SR18,East,2025-12-08,8,No,Other
+1832,C147,2025-12-07,P108,4,53.4,Pending,"510 Main St, City3",City4,USA,Credit Card,14.35,Books,SR20,North,2025-12-17,4,No,Male
+1833,C187,2025-12-22,P119,6,72.19,Returned,"852 Main St, City20",City11,France,Cash,15.2,Clothing,SR11,West,2025-12-25,3,Yes,Other
+1834,C099,2025-12-21,P103,4,98.02,Shipped,"429 Main St, City11",City14,USA,PayPal,3.24,Books,SR01,West,2026-01-01,6,Yes,Other
+1835,C148,2025-12-13,P128,4,47.5,Cancelled,"458 Main St, City16",City7,USA,Cash,13.11,Toys,SR11,East,2025-12-13,5,No,Female
+1836,C198,2025-12-18,P129,2,68.12,Cancelled,"448 Main St, City13",City2,UK,Credit Card,15.64,Home,SR01,South,2025-12-08,4,No,Male
+1837,C031,2025-12-18,P145,5,16.11,Cancelled,"886 Main St, City3",City19,Germany,Credit Card,19.33,Toys,SR06,West,2026-01-03,4,Yes,Other
+1838,C057,2025-12-25,P101,4,74.4,Cancelled,"170 Main St, City9",City16,Australia,PayPal,11.26,Toys,SR17,North,2026-01-05,6,Yes,Other
+1839,C136,2025-12-06,P123,3,13.6,Pending,"272 Main St, City17",City14,Australia,PayPal,16.86,Sports,SR05,West,2025-12-14,5,Yes,Female
+1840,C076,2025-12-13,P133,7,89.79,Returned,"192 Main St, City5",City10,Canada,Cash,0.01,Books,SR18,East,2025-12-15,10,Yes,Male
+1841,C194,2025-12-14,P108,3,50.16,Pending,"448 Main St, City13",City4,Germany,PayPal,12.92,Home,SR19,South,2025-12-17,6,Yes,Male
+1842,C071,2025-12-05,P125,2,73.68,Pending,"372 Main St, City18",City13,India,Cash,15.21,Electronics,SR04,East,2026-01-04,2,No,Male
+1843,C170,2025-12-15,P119,2,55.95,Returned,"894 Main St, City13",City14,Australia,Cash,17.5,Electronics,SR13,East,2025-12-09,8,No,Other
+1844,C044,2025-12-29,P145,8,76.8,Pending,"932 Main St, City16",City8,USA,Cash,4.83,Sports,SR16,West,2025-12-28,1,Yes,Female
+1845,C186,2025-12-24,P117,5,65.46,Cancelled,"889 Main St, City1",City16,Australia,Cash,19.66,Electronics,SR01,North,2026-01-02,4,No,Male
+1846,C152,2025-12-14,P142,5,13.97,Returned,"712 Main St, City11",City11,Australia,Gift Card,12.13,Sports,SR13,North,2025-12-08,10,Yes,Other
+1847,C025,2025-12-04,P148,4,38.62,Returned,"260 Main St, City14",City18,Canada,Credit Card,6.95,Home,SR15,North,2025-12-27,7,Yes,Male
+1848,C146,2025-12-06,P101,6,13.48,Returned,"544 Main St, City17",City3,Germany,Cash,7.17,Sports,SR12,East,2025-12-17,5,No,Male
+1849,C084,2025-12-15,P144,5,77.78,Pending,"644 Main St, City16",City18,Australia,Cash,14.81,Books,SR06,West,2025-12-07,6,No,Other
+1850,C138,2025-12-24,P114,6,83.54,Shipped,"323 Main St, City14",City6,Canada,Gift Card,6.26,Home,SR06,West,2025-12-14,5,No,Female
+1851,C087,2025-12-26,P128,6,76.45,Pending,"192 Main St, City5",City2,USA,PayPal,11.64,Toys,SR18,East,2026-01-05,3,No,Other
+1852,C179,2025-12-03,P112,2,12.68,Returned,"532 Main St, City8",City15,Canada,Cash,10.66,Home,SR05,West,2025-12-08,5,Yes,Female
+1853,C058,2025-12-15,P102,4,56.6,Cancelled,"712 Main St, City18",City4,India,PayPal,4.91,Clothing,SR15,South,2025-12-11,1,No,Male
+1854,C006,2025-12-28,P139,8,84.43,Returned,"625 Main St, City9",City5,France,PayPal,8.25,Toys,SR19,West,2025-12-26,5,No,Female
+1855,C111,2025-12-12,P123,4,34.72,Cancelled,"771 Main St, City13",City18,India,Cash,17.2,Sports,SR08,South,2025-12-08,9,No,Other
+1856,C081,2025-12-04,P138,4,73.12,Pending,"330 Main St, City5",City10,France,Credit Card,9.2,Home,SR16,West,2025-12-06,3,Yes,Other
+1857,C115,2025-12-18,P141,1,89.99,Returned,"642 Main St, City6",City15,USA,Cash,1.31,Sports,SR09,East,2025-12-03,10,No,Female
+1858,C181,2025-12-25,P108,7,24.65,Returned,"718 Main St, City3",City6,Canada,Cash,6.61,Toys,SR17,West,2025-12-11,9,No,Male
+1859,C157,2025-12-02,P145,6,60.38,Shipped,"432 Main St, City18",City10,France,Gift Card,14.61,Sports,SR07,South,2025-12-13,3,Yes,Other
+1860,C127,2025-12-24,P107,6,12.54,Returned,"765 Main St, City1",City20,Canada,Gift Card,16.1,Home,SR16,South,2025-12-23,3,Yes,Female
+1861,C091,2025-12-06,P145,7,88.38,Returned,"749 Main St, City19",City2,UK,Gift Card,4.01,Books,SR03,East,2025-12-30,2,No,Male
+1862,C156,2025-12-02,P135,1,69.53,Shipped,"241 Main St, City19",City18,France,Credit Card,0.09,Home,SR10,North,2025-12-25,2,Yes,Male
+1863,C163,2025-12-20,P131,3,55.37,Cancelled,"318 Main St, City8",City9,India,Cash,11.48,Home,SR06,South,2025-12-30,1,Yes,Other
+1864,C031,2025-12-26,P119,5,14.34,Pending,"459 Main St, City11",City2,India,Credit Card,9.95,Toys,SR05,East,2025-12-31,9,No,Female
+1865,C030,2025-12-22,P135,2,36.47,Cancelled,"429 Main St, City11",City1,Australia,Gift Card,3.77,Home,SR02,East,2025-12-05,8,Yes,Other
+1866,C024,2025-12-22,P141,6,91.53,Returned,"472 Main St, City10",City8,Canada,PayPal,5.65,Clothing,SR15,South,2025-12-20,7,No,Female
+1867,C097,2025-12-03,P131,1,51.15,Cancelled,"712 Main St, City11",City9,France,Gift Card,6.12,Books,SR02,North,2025-12-14,2,No,Other
+1868,C192,2025-12-29,P136,9,20.63,Cancelled,"887 Main St, City7",City13,France,Credit Card,0.94,Books,SR13,South,2025-12-24,9,Yes,Other
+1869,C112,2025-12-24,P132,9,85.52,Cancelled,"216 Main St, City1",City10,USA,PayPal,1.97,Clothing,SR08,East,2025-12-06,4,No,Male
+1870,C147,2025-12-21,P139,1,8.33,Returned,"372 Main St, City18",City8,USA,Cash,0.09,Clothing,SR11,South,2025-12-26,4,No,Female
+1871,C012,2025-12-05,P109,10,27.62,Cancelled,"875 Main St, City2",City9,France,Cash,4.1,Sports,SR09,West,2025-12-02,7,No,Female
+1872,C072,2025-12-27,P112,8,28.32,Shipped,"519 Main St, City16",City18,Germany,Credit Card,13.92,Home,SR05,South,2025-12-06,2,Yes,Male
+1873,C126,2025-12-03,P111,9,35.42,Cancelled,"216 Main St, City1",City18,Canada,Gift Card,5.7,Books,SR10,East,2025-12-08,2,No,Male
+1874,C023,2025-12-18,P131,4,16.19,Shipped,"808 Main St, City9",City8,USA,Credit Card,4.57,Home,SR06,North,2025-12-06,4,No,Other
+1875,C095,2025-12-15,P147,3,46.42,Shipped,"696 Main St, City5",City17,Australia,PayPal,15.37,Sports,SR11,North,2025-12-02,3,No,Female
+1876,C045,2025-12-12,P129,4,90.54,Shipped,"260 Main St, City14",City6,India,Cash,10.11,Clothing,SR06,South,2025-12-23,8,Yes,Female
+1877,C018,2025-12-27,P115,10,54.73,Pending,"429 Main St, City11",City19,UK,Credit Card,2.23,Electronics,SR14,North,2025-12-12,6,No,Male
+1878,C037,2025-12-29,P106,4,4.56,Shipped,"574 Main St, City5",City8,Australia,Gift Card,15.37,Electronics,SR08,North,2026-01-05,2,Yes,Other
+1879,C122,2025-12-30,P136,7,31.11,Returned,"220 Main St, City12",City19,India,Gift Card,12.25,Books,SR15,West,2025-12-11,8,No,Male
+1880,C037,2025-12-10,P140,3,96.44,Returned,"821 Main St, City3",City2,UK,Credit Card,8.63,Books,SR05,North,2025-12-31,7,Yes,Female
+1881,C033,2025-12-27,P140,6,23.97,Returned,"889 Main St, City1",City3,Germany,Gift Card,8.88,Home,SR15,East,2025-12-23,6,No,Male
+1882,C186,2025-12-17,P113,4,24.82,Pending,"542 Main St, City17",City4,Australia,Cash,18.01,Toys,SR14,East,2025-12-21,4,No,Male
+1883,C121,2025-12-04,P134,8,32.82,Returned,"819 Main St, City19",City11,India,Cash,11.03,Clothing,SR13,West,2025-12-13,8,Yes,Other
+1884,C053,2025-12-13,P136,3,30.23,Pending,"227 Main St, City16",City5,France,PayPal,3.01,Books,SR15,South,2025-12-10,8,No,Other
+1885,C196,2025-12-20,P133,1,68.9,Shipped,"582 Main St, City15",City15,USA,Credit Card,6.63,Electronics,SR11,East,2025-12-14,3,Yes,Female
+1886,C017,2025-12-12,P139,6,60.0,Returned,"481 Main St, City16",City8,Canada,PayPal,5.79,Electronics,SR18,South,2025-12-11,3,No,Male
+1887,C137,2025-12-30,P139,7,19.18,Returned,"761 Main St, City4",City10,Canada,PayPal,19.52,Sports,SR05,West,2025-12-08,1,Yes,Female
+1888,C122,2025-12-13,P130,3,77.64,Cancelled,"367 Main St, City9",City2,France,PayPal,8.95,Electronics,SR16,East,2025-12-23,2,No,Male
+1889,C046,2025-12-05,P139,5,69.02,Pending,"280 Main St, City6",City12,India,Cash,5.85,Electronics,SR12,West,2025-12-03,10,No,Male
+1890,C094,2025-12-28,P116,4,53.28,Shipped,"626 Main St, City1",City19,India,Credit Card,12.99,Sports,SR10,East,2025-12-30,7,No,Male
+1891,C070,2025-12-24,P148,8,67.29,Cancelled,"724 Main St, City13",City5,India,Credit Card,14.69,Electronics,SR10,West,2025-12-14,8,No,Female
+1892,C010,2025-12-23,P143,5,70.89,Cancelled,"231 Main St, City15",City12,Australia,Gift Card,8.14,Books,SR05,East,2025-12-18,9,Yes,Female
+1893,C073,2025-12-09,P105,8,92.19,Shipped,"224 Main St, City11",City19,Australia,Credit Card,0.46,Clothing,SR04,South,2025-12-06,3,No,Male
+1894,C040,2025-12-19,P115,2,86.9,Shipped,"822 Main St, City15",City10,Canada,Cash,17.4,Toys,SR03,South,2025-12-31,6,Yes,Other
+1895,C032,2025-12-02,P145,3,23.14,Shipped,"708 Main St, City3",City6,Canada,Credit Card,0.08,Sports,SR08,South,2025-12-05,2,No,Female
+1896,C161,2025-12-17,P112,8,82.47,Returned,"972 Main St, City2",City10,India,Gift Card,5.76,Sports,SR19,North,2025-12-30,3,Yes,Male
+1897,C046,2025-12-07,P116,3,88.29,Pending,"761 Main St, City4",City13,Canada,Credit Card,3.76,Books,SR08,South,2025-12-27,10,No,Other
+1898,C106,2025-12-17,P140,5,24.94,Cancelled,"254 Main St, City20",City13,India,Credit Card,13.1,Sports,SR09,East,2025-12-12,2,Yes,Male
+1899,C127,2025-12-12,P146,1,63.5,Returned,"644 Main St, City12",City17,Australia,Gift Card,0.24,Sports,SR03,East,2025-12-25,10,Yes,Other
+1900,C068,2025-12-24,P120,8,38.37,Returned,"311 Main St, City9",City7,UK,Gift Card,6.27,Sports,SR07,South,2025-12-12,1,No,Female
+1901,C120,2025-12-29,P129,6,92.64,Returned,"485 Main St, City4",City19,Germany,PayPal,2.84,Home,SR14,North,2025-12-10,6,No,Other
+1902,C039,2025-12-13,P123,1,45.69,Pending,"817 Main St, City7",City11,India,PayPal,1.9,Home,SR16,South,2025-12-19,6,Yes,Male
+1903,C128,2025-12-13,P110,5,83.65,Cancelled,"450 Main St, City13",City18,Germany,Gift Card,8.66,Clothing,SR16,North,2025-12-24,2,Yes,Female
+1904,C181,2025-12-16,P138,5,17.57,Returned,"996 Main St, City17",City3,Germany,Credit Card,19.14,Sports,SR06,East,2025-12-21,10,No,Other
+1905,C032,2025-12-20,P108,9,31.05,Cancelled,"658 Main St, City4",City14,UK,Gift Card,1.26,Home,SR12,West,2025-12-17,4,No,Other
+1906,C060,2025-12-30,P120,8,79.52,Cancelled,"320 Main St, City17",City14,Canada,PayPal,18.04,Books,SR19,South,2025-12-17,4,No,Other
+1907,C121,2025-12-29,P101,6,53.04,Shipped,"347 Main St, City12",City17,India,Cash,1.63,Home,SR15,East,2025-12-06,8,No,Male
+1908,C198,2025-12-09,P145,3,38.91,Shipped,"481 Main St, City16",City5,India,Credit Card,6.54,Toys,SR16,South,2025-12-19,6,No,Female
+1909,C155,2025-12-29,P134,4,83.11,Pending,"979 Main St, City15",City15,USA,Cash,14.67,Sports,SR07,East,2025-12-17,7,No,Other
+1910,C003,2025-12-10,P116,4,17.82,Shipped,"544 Main St, City17",City2,Canada,Gift Card,1.57,Home,SR05,West,2025-12-26,9,Yes,Other
+1911,C114,2025-12-25,P120,2,93.93,Returned,"179 Main St, City12",City11,Canada,Gift Card,5.7,Toys,SR05,East,2025-12-03,2,Yes,Female
+1912,C142,2025-12-16,P123,3,34.26,Returned,"262 Main St, City15",City3,Canada,Gift Card,12.93,Home,SR06,East,2025-12-04,5,No,Other
+1913,C194,2025-12-19,P102,9,9.35,Pending,"588 Main St, City15",City10,USA,PayPal,3.03,Toys,SR06,South,2025-12-07,6,No,Female
+1914,C021,2025-12-14,P121,2,51.27,Shipped,"170 Main St, City9",City3,Canada,Gift Card,13.89,Toys,SR03,South,2025-12-30,3,Yes,Female
+1915,C059,2025-12-08,P103,9,6.32,Pending,"153 Main St, City18",City16,USA,PayPal,15.17,Clothing,SR05,East,2025-12-22,7,No,Male
+1916,C131,2025-12-25,P118,8,6.25,Returned,"262 Main St, City15",City18,USA,PayPal,11.79,Clothing,SR08,West,2025-12-02,6,Yes,Other
+1917,C095,2025-12-17,P110,7,24.42,Shipped,"519 Main St, City16",City19,France,Cash,5.31,Books,SR17,West,2025-12-12,4,No,Female
+1918,C051,2025-12-11,P116,7,15.43,Cancelled,"220 Main St, City12",City3,Germany,Gift Card,4.09,Electronics,SR02,West,2025-12-08,4,Yes,Other
+1919,C189,2025-12-24,P119,4,89.11,Cancelled,"314 Main St, City11",City19,USA,PayPal,11.34,Books,SR07,North,2025-12-21,1,Yes,Male
+1920,C086,2025-12-07,P131,7,73.11,Returned,"260 Main St, City14",City15,Australia,PayPal,18.42,Home,SR18,East,2025-12-17,2,Yes,Male
+1921,C008,2025-12-20,P103,1,94.88,Shipped,"975 Main St, City17",City13,Germany,PayPal,1.94,Books,SR07,South,2025-12-29,6,Yes,Female
+1922,C107,2025-12-21,P101,5,77.95,Shipped,"975 Main St, City17",City18,UK,Gift Card,18.6,Clothing,SR04,North,2026-01-01,3,Yes,Male
+1923,C023,2025-12-24,P115,8,87.49,Cancelled,"840 Main St, City2",City15,Canada,Gift Card,1.27,Sports,SR05,South,2025-12-06,7,No,Male
+1924,C010,2025-12-16,P127,8,43.58,Shipped,"320 Main St, City17",City4,Canada,Credit Card,19.19,Books,SR10,West,2025-12-14,5,Yes,Other
+1925,C070,2025-12-31,P112,4,70.2,Shipped,"767 Main St, City20",City4,Australia,Gift Card,11.18,Sports,SR16,South,2025-12-05,5,No,Male
+1926,C154,2025-12-12,P129,8,56.27,Cancelled,"530 Main St, City17",City13,Canada,PayPal,6.41,Sports,SR12,West,2025-12-13,10,No,Female
+1927,C120,2025-12-12,P149,5,18.16,Returned,"816 Main St, City9",City5,Germany,Cash,19.23,Electronics,SR20,East,2025-12-10,6,No,Other
+1928,C120,2025-12-15,P148,9,86.72,Pending,"458 Main St, City16",City7,France,PayPal,11.98,Toys,SR06,South,2025-12-15,7,Yes,Female
+1929,C029,2025-12-17,P134,1,53.87,Shipped,"821 Main St, City3",City19,Canada,PayPal,14.79,Sports,SR11,West,2025-12-09,6,No,Other
+1930,C102,2025-12-17,P142,7,25.02,Cancelled,"184 Main St, City16",City15,Canada,Credit Card,4.52,Sports,SR15,South,2025-12-14,1,Yes,Female
+1931,C037,2025-12-30,P104,5,27.21,Returned,"975 Main St, City17",City12,France,Credit Card,19.03,Clothing,SR01,North,2025-12-03,5,Yes,Male
+1932,C048,2025-12-27,P149,2,10.42,Returned,"938 Main St, City19",City10,UK,Gift Card,0.21,Toys,SR10,East,2025-12-26,6,Yes,Female
+1933,C110,2025-12-20,P137,8,64.97,Shipped,"909 Main St, City20",City10,USA,Gift Card,6.39,Electronics,SR09,West,2025-12-26,9,Yes,Female
+1934,C177,2025-12-19,P139,6,95.11,Returned,"712 Main St, City18",City6,USA,Gift Card,15.18,Electronics,SR16,East,2026-01-05,2,Yes,Male
+1935,C186,2025-12-27,P145,2,47.64,Cancelled,"309 Main St, City5",City15,Germany,Credit Card,6.46,Toys,SR15,South,2025-12-28,2,Yes,Other
+1936,C033,2025-12-19,P143,1,93.8,Returned,"393 Main St, City15",City17,India,Gift Card,5.49,Toys,SR13,North,2025-12-18,10,Yes,Other
+1937,C133,2025-12-16,P111,8,32.16,Pending,"458 Main St, City16",City12,France,Cash,8.53,Sports,SR05,North,2025-12-14,8,No,Male
+1938,C002,2025-12-13,P149,3,78.15,Shipped,"975 Main St, City17",City8,India,Cash,17.31,Toys,SR16,South,2025-12-30,2,Yes,Male
+1939,C036,2025-12-05,P147,10,58.02,Returned,"588 Main St, City15",City10,Australia,Gift Card,0.41,Toys,SR12,North,2025-12-28,8,Yes,Female
+1940,C112,2025-12-18,P144,7,10.42,Shipped,"532 Main St, City8",City16,UK,Gift Card,8.03,Clothing,SR05,North,2025-12-03,3,Yes,Other
+1941,C048,2025-12-22,P112,8,67.34,Cancelled,"625 Main St, City9",City5,Germany,Credit Card,19.42,Sports,SR06,West,2025-12-09,9,Yes,Male
+1942,C052,2025-12-05,P119,3,75.67,Returned,"108 Main St, City4",City13,USA,Credit Card,2.26,Sports,SR09,North,2025-12-21,3,No,Male
+1943,C123,2025-12-26,P113,4,67.74,Returned,"153 Main St, City18",City7,USA,PayPal,7.76,Sports,SR18,North,2025-12-11,3,Yes,Male
+1944,C123,2025-12-17,P104,10,19.8,Returned,"519 Main St, City16",City5,India,Cash,8.13,Home,SR02,East,2025-12-27,1,Yes,Other
+1945,C186,2025-12-30,P123,7,47.17,Pending,"184 Main St, City16",City14,Germany,Gift Card,12.92,Sports,SR06,South,2026-01-04,5,No,Male
+1946,C111,2025-12-20,P101,7,10.36,Shipped,"642 Main St, City6",City20,India,Credit Card,7.39,Home,SR09,West,2025-12-23,5,No,Female
+1947,C121,2025-12-17,P131,7,76.7,Pending,"808 Main St, City9",City8,USA,Gift Card,19.5,Toys,SR17,North,2025-12-18,5,No,Female
+1948,C153,2025-12-17,P114,6,92.96,Cancelled,"309 Main St, City5",City6,India,Cash,19.45,Clothing,SR11,West,2025-12-19,5,No,Other
+1949,C169,2025-12-07,P149,10,89.48,Pending,"477 Main St, City3",City8,UK,PayPal,13.74,Books,SR18,East,2025-12-15,8,Yes,Male
+1950,C186,2025-12-24,P118,4,23.74,Cancelled,"947 Main St, City6",City1,Australia,Gift Card,7.5,Home,SR16,East,2025-12-31,9,No,Male
+1951,C066,2025-12-20,P104,5,15.94,Returned,"262 Main St, City15",City18,USA,Credit Card,3.78,Books,SR16,West,2025-12-19,9,No,Male
+1952,C069,2025-12-02,P127,8,61.14,Returned,"702 Main St, City20",City17,UK,Credit Card,2.79,Electronics,SR12,North,2025-12-04,2,No,Male
+1953,C141,2025-12-18,P117,3,79.24,Returned,"372 Main St, City18",City16,Canada,Credit Card,0.2,Books,SR20,East,2025-12-20,7,Yes,Male
+1954,C057,2025-12-20,P138,10,76.16,Cancelled,"885 Main St, City5",City15,USA,Cash,15.25,Clothing,SR13,South,2026-01-05,10,Yes,Male
+1955,C024,2025-12-19,P147,10,97.94,Cancelled,"674 Main St, City16",City13,USA,PayPal,16.91,Clothing,SR08,West,2025-12-12,3,Yes,Female
+1956,C028,2025-12-01,P115,5,45.77,Returned,"800 Main St, City14",City7,India,Credit Card,16.95,Home,SR15,West,2025-12-11,7,No,Male
+1957,C139,2025-12-25,P117,4,88.64,Returned,"702 Main St, City20",City10,UK,Cash,0.41,Toys,SR20,West,2025-12-30,10,Yes,Female
+1958,C037,2025-12-23,P104,10,84.34,Returned,"241 Main St, City19",City1,India,PayPal,6.28,Home,SR09,South,2025-12-20,4,No,Other
+1959,C121,2025-12-31,P101,10,27.42,Shipped,"220 Main St, City12",City11,Australia,Credit Card,7.78,Books,SR12,West,2025-12-03,8,No,Other
+1960,C115,2025-12-30,P127,2,45.98,Cancelled,"450 Main St, City13",City10,UK,Cash,9.57,Clothing,SR08,South,2025-12-04,7,No,Male
+1961,C195,2025-12-08,P105,3,12.86,Shipped,"399 Main St, City4",City4,France,Cash,9.06,Books,SR05,West,2025-12-19,3,Yes,Female
+1962,C080,2025-12-06,P133,2,26.24,Shipped,"907 Main St, City10",City6,France,PayPal,5.76,Home,SR14,South,2025-12-17,1,Yes,Other
+1963,C183,2025-12-03,P104,2,29.82,Pending,"211 Main St, City4",City13,Australia,Gift Card,11.07,Books,SR06,South,2026-01-05,3,Yes,Male
+1964,C084,2025-12-28,P110,5,53.26,Shipped,"989 Main St, City8",City15,USA,Gift Card,2.7,Electronics,SR16,South,2025-12-10,4,No,Other
+1965,C072,2025-12-15,P115,8,20.8,Shipped,"129 Main St, City4",City5,India,Credit Card,1.34,Home,SR05,North,2025-12-20,8,No,Other
+1966,C194,2025-12-13,P135,9,73.71,Returned,"857 Main St, City18",City9,UK,Gift Card,15.03,Toys,SR14,South,2026-01-03,8,Yes,Male
+1967,C053,2025-12-03,P138,6,84.82,Shipped,"972 Main St, City2",City6,Germany,Gift Card,5.99,Electronics,SR11,West,2025-12-14,1,Yes,Female
+1968,C199,2025-12-21,P148,3,47.18,Pending,"767 Main St, City20",City6,Germany,PayPal,2.85,Clothing,SR15,East,2026-01-02,7,No,Other
+1969,C120,2025-12-12,P113,8,16.51,Shipped,"364 Main St, City11",City15,Canada,Credit Card,5.91,Electronics,SR12,West,2025-12-26,7,Yes,Other
+1970,C076,2025-12-12,P132,9,49.79,Returned,"393 Main St, City15",City14,UK,PayPal,6.21,Toys,SR06,North,2025-12-08,3,No,Male
+1971,C007,2025-12-17,P113,9,39.63,Returned,"588 Main St, City1",City11,Australia,Gift Card,6.94,Books,SR10,East,2025-12-05,9,Yes,Female
+1972,C195,2025-12-16,P127,9,7.46,Shipped,"894 Main St, City13",City11,UK,Gift Card,14.63,Sports,SR09,South,2025-12-11,4,Yes,Other
+1973,C099,2025-12-09,P125,4,8.01,Cancelled,"234 Main St, City17",City10,India,Gift Card,11.39,Home,SR05,West,2025-12-18,4,Yes,Male
+1974,C042,2025-12-28,P102,5,73.8,Shipped,"952 Main St, City17",City2,India,Gift Card,2.28,Sports,SR15,East,2025-12-25,8,No,Other
+1975,C143,2025-12-18,P147,6,64.62,Cancelled,"170 Main St, City9",City12,Canada,Cash,16.12,Clothing,SR08,North,2025-12-29,8,No,Female
+1976,C131,2025-12-10,P131,7,8.91,Cancelled,"821 Main St, City3",City17,Australia,PayPal,11.1,Clothing,SR08,West,2025-12-11,2,No,Female
+1977,C191,2025-12-13,P126,10,35.79,Shipped,"364 Main St, City11",City2,France,Gift Card,18.97,Sports,SR03,East,2025-12-05,7,No,Female
+1978,C040,2025-12-14,P130,1,36.03,Cancelled,"938 Main St, City19",City20,India,Gift Card,17.58,Home,SR13,South,2025-12-27,7,Yes,Female
+1979,C063,2025-12-20,P110,6,19.27,Cancelled,"459 Main St, City11",City11,Australia,Credit Card,2.01,Electronics,SR01,South,2026-01-05,7,No,Male
+1980,C179,2025-12-21,P109,1,4.19,Pending,"592 Main St, City4",City10,UK,Cash,13.57,Sports,SR12,North,2025-12-04,3,No,Female
+1981,C026,2025-12-02,P137,2,98.86,Shipped,"950 Main St, City7",City10,Germany,Gift Card,2.15,Toys,SR10,North,2025-12-20,3,Yes,Female
+1982,C156,2025-12-28,P116,3,65.76,Shipped,"588 Main St, City15",City11,India,Cash,0.64,Books,SR06,West,2025-12-30,6,No,Female
+1983,C168,2025-12-23,P125,7,81.46,Pending,"718 Main St, City3",City16,UK,PayPal,4.81,Clothing,SR05,North,2025-12-07,1,Yes,Male
+1984,C028,2025-12-15,P108,3,73.38,Cancelled,"477 Main St, City3",City11,Canada,Cash,11.59,Sports,SR16,West,2025-12-28,2,No,Other
+1985,C054,2025-12-29,P130,1,38.95,Returned,"950 Main St, City7",City4,USA,Credit Card,0.63,Books,SR13,South,2026-01-02,8,No,Other
+1986,C083,2025-12-15,P108,6,75.54,Returned,"530 Main St, City17",City15,Australia,PayPal,0.15,Clothing,SR09,West,2025-12-07,8,No,Male
+1987,C011,2025-12-29,P108,4,53.22,Returned,"991 Main St, City2",City11,Canada,PayPal,8.36,Electronics,SR12,East,2025-12-25,6,Yes,Male
+1988,C124,2025-12-25,P132,4,24.25,Cancelled,"216 Main St, City1",City4,Australia,Cash,10.62,Toys,SR19,South,2025-12-29,1,No,Other
+1989,C152,2025-12-18,P118,9,99.68,Returned,"150 Main St, City2",City5,UK,Credit Card,8.15,Sports,SR03,West,2025-12-28,8,Yes,Female
+1990,C152,2025-12-08,P128,5,32.82,Shipped,"450 Main St, City13",City12,France,Cash,7.9,Electronics,SR17,South,2025-12-04,4,No,Male
+1991,C102,2025-12-01,P127,1,96.02,Cancelled,"402 Main St, City20",City8,Germany,Credit Card,10.04,Sports,SR10,North,2026-01-02,10,Yes,Other
+1992,C170,2025-12-18,P118,2,86.09,Returned,"712 Main St, City11",City17,UK,PayPal,10.9,Clothing,SR01,West,2025-12-07,6,Yes,Female
+1993,C006,2025-12-04,P108,5,20.22,Cancelled,"852 Main St, City20",City11,Germany,PayPal,18.12,Clothing,SR06,East,2025-12-08,5,No,Other
+1994,C178,2025-12-18,P140,2,11.31,Pending,"351 Main St, City10",City18,India,Credit Card,15.57,Books,SR06,North,2025-12-30,6,Yes,Other
+1995,C197,2025-12-27,P149,9,48.66,Shipped,"341 Main St, City16",City12,France,Cash,15.71,Books,SR03,East,2025-12-13,7,Yes,Other
+1996,C065,2025-12-24,P101,10,81.21,Shipped,"351 Main St, City7",City2,India,Cash,3.21,Sports,SR18,South,2026-01-01,6,Yes,Female
+1997,C100,2025-12-26,P148,7,13.93,Returned,"270 Main St, City3",City17,India,Gift Card,15.47,Sports,SR03,South,2026-01-02,9,No,Female
+1998,C083,2025-12-21,P123,4,90.39,Shipped,"220 Main St, City12",City18,USA,Cash,0.34,Sports,SR12,East,2025-12-28,1,No,Female
+1999,C022,2025-12-05,P106,10,53.96,Shipped,"459 Main St, City11",City10,Germany,Gift Card,11.07,Toys,SR11,North,2025-12-04,6,Yes,Female
+2000,C138,2025-12-27,P127,5,7.73,Shipped,"765 Main St, City4",City10,Canada,PayPal,13.92,Home,SR05,East,2025-12-23,7,Yes,Other
